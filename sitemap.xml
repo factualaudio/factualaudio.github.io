@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://factualaudio.com/post/distortion/</loc>
+    <lastmod>2017-11-21T21:05:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/post/amplitude/</loc>
+    <lastmod>2017-11-21T21:04:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/post/decibel/</loc>
+    <lastmod>2017-11-21T21:03:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/post/life/</loc>
+    <lastmod>2017-11-21T21:02:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/post/anatomy/</loc>
+    <lastmod>2017-11-21T21:01:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/page/about/</loc>
+    <lastmod>2017-11-21T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/</loc>
+    <lastmod>2017-11-21T21:05:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/page/</loc>
+    <lastmod>2017-11-21T21:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/post/</loc>
+    <lastmod>2017-11-21T21:05:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://factualaudio.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

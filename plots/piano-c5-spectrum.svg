@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="600px" height="300px" viewBox="0 0 600 300">
+<title>gl2ps_renderer figure</title>
+<desc>
+Creator: GL2PS 1.4.0, (C) 1999-2017 C. Geuzaine
+For: Octave
+</desc>
+<defs>
+</defs>
+<polygon fill="#ffffff" points="0,0 600,0 600,300 0,300"/>
+<g>
+<polygon fill="#fefefe" points="0,300 600,300 600,0 0,0" shape-rendering="crispEdges"/>
+<clipPath id="cp00600300">
+  <polygon points="0,300 600,300 600,0 0,0"/>
+</clipPath>
+<g clip-path="url(#cp00600300)">
+<polygon fill="#ffffff" shape-rendering="crispEdges" points="78,267 543,267 78,22.5"/>
+<polygon fill="#ffffff" shape-rendering="crispEdges" points="543,267 543,22.5 78,22.5"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="78,267 78,262.341"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="78,22.5 78,27.1595"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="186.34,267 186.34,262.341"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="186.34,22.5 186.34,27.1595"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="341.34,267 341.34,262.341"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="341.34,22.5 341.34,27.1595"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="496.34,267 496.34,262.341"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="496.34,22.5 496.34,27.1595"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="543,267 543,262.341"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="543,22.5 543,27.1595"/>
+<text fill="#262626" x="78" y="272.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">20</text>
+<text fill="#262626" x="186.34" y="272.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">100</text>
+<text fill="#262626" x="341.34" y="272.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">1000</text>
+<text fill="#262626" x="496.34" y="272.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">10000</text>
+<text fill="#262626" x="543" y="272.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">20000</text>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="78,267 543,267"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="78,22.5 543,22.5"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="78,267 78,22.5"/>
+<polyline fill="none" stroke="#262626" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="543,267 543,22.5"/>
+<text fill="#262626" x="310.5" y="285.01" font-size="10" text-anchor="middle" dy="10" font-family="Open Sans">Frequency (Hz)</text>
+<text fill="#262626" x="69" y="144.75" font-size="10" transform="rotate(-90, 69, 144.75)" text-anchor="middle" dy="0" font-family="Open Sans">Amplitude</text>
+<polyline fill="none" stroke="#0071bc" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="248.513,267.245 248.838,208.22 249.176,163.543 249.511,130.415 249.846,106.218 250.178,89.5156 250.509,79.5083 250.838,75.7951 251.165,78.2803 251.492,87.1553 251.816,102.95 252.139,126.685 252.46,160.229 252.78,207.204 253.059,267.245"/>
+<polyline fill="none" stroke="#0071bc" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="296.354,267.245 296.505,228.853 296.672,198.448 296.838,176.956 297.003,162.679 297.168,154.634 297.333,152.286 297.498,155.43 297.662,164.172 297.825,178.975 297.988,200.818 298.151,231.568 298.285,267.245"/>
+<polyline fill="none" stroke="#0071bc" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" points="324.481,267.245 324.572,237.375 324.682,212.119 324.792,195.526 324.901,186.546 325.01,184.715 325.119,190.014 325.228,202.855 325.337,224.221 325.445,256.04 325.472,267.245"/>
+</g>
+</g>
+</svg>
