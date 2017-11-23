@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Life of an audio signal &middot; Factual Audio</title>
+        <title>From bytes to your eardrum &middot; Factual Audio</title>
         <meta name="description" content="In the previous post, I described how an audio signal is represented. Now, let’s discuss the various physical forms that audio signals take as they travel through each stage of an audio playback system.
 For the sake of this discussion, I am going to assume the most common and straightforward use case: playing a digital stream over loudspeakers (or headphones). By “digital stream” I mean any audio signal that is processed by a computer or computer-like system; that can be anything including a MP3 file, online video, online music streaming, the soundtrack of a Blu-ray disc, etc.">
         <meta name="HandheldFriendly" content="True">
@@ -81,7 +81,7 @@ ga('send', 'pageview');
 <div class="container">
     <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Life of an audio signal</h1>
+    <h1 class="post-title" itemprop="name headline">From bytes to your eardrum</h1>
     
     <p class="post-date">
         <span>Published <time datetime="2017-11-21" itemprop="datePublished">Tue, Nov 21, 2017</time></span>
@@ -134,7 +134,8 @@ ga('send', 'pageview');
 <img src="https://factualaudio.com/plots/1khz-sine-wave-analog.png" width="100%" class="figure replacewithsvg">
 
 
-<p>It is important to realize that in the plot above, the unit used for the vertical scale is the <em><a href="https://en.wikipedia.org/wiki/Volt">volt</a></em>. In other words, the amplitude of the audio signal in the analog domain is defined by its <em>voltage</em>. It is <em>not</em> defined by <a href="https://en.wikipedia.org/wiki/Electric_current">current</a> nor <a href="https://en.wikipedia.org/wiki/Electric_power">power</a>. Even when the signal is used as the input of a loudspeaker, it is still voltage that determines the sound that comes out; power dissipation is a <em>consequence</em>, not a <em>cause</em>, of the audio signal flowing through the loudspeaker. As Pat Brown <a href="http://www.prosoundtraining.com/site/author/pat-brown/meaningful-metrics-the-use-and-abuse-of-loudspeaker-power-ratings/">elegantly puts it</a>: &ldquo;power is <em>drawn</em>, not applied&rdquo;. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Another way to state this is to say that properly engineered analog audio devices act as <em><a href="https://en.wikipedia.org/wiki/Voltage_source">voltage sources</a></em> (or sinks), which are connected to each other by way of <em><a href="https://en.wikipedia.org/wiki/Impedance_bridging">impedance bridging</a></em>.</span><strong class="inlineFootnoteDecoration"> [end note] </strong> This is a frequent source of confusion.</p>
+<p class="caution"><strong class="caution-label">Caution: </strong>In the plot above, the unit used for the vertical scale is the <em><a href="https://en.wikipedia.org/wiki/Volt">volt</a></em>. In other words, the amplitude of the audio signal in the analog domain is defined by its <em>voltage</em>. It is <em>not</em> defined by <a href="https://en.wikipedia.org/wiki/Electric_current">current</a> nor <a href="https://en.wikipedia.org/wiki/Electric_power">power</a>. Even when the signal is used as the input of a loudspeaker, it is still voltage that determines the sound that comes out; power dissipation is a <em>consequence</em>, not a <em>cause</em>, of the audio signal flowing through the loudspeaker. As Pat Brown <a href="http://www.prosoundtraining.com/site/author/pat-brown/meaningful-metrics-the-use-and-abuse-of-loudspeaker-power-ratings/">elegantly puts it</a>: &ldquo;power is <em>drawn</em>, not applied&rdquo;. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Another way to state this is to say that properly engineered analog audio devices act as <em><a href="https://en.wikipedia.org/wiki/Voltage_source">voltage sources</a></em> (or sinks), which are connected to each other by way of <em><a href="https://en.wikipedia.org/wiki/Impedance_bridging">impedance bridging</a></em>.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
+
 
 <p>The DAC took our discrete signal and converted it into a continuous electrical signal, whose voltage is (hopefully) <em>proportional</em> to the digital sample value. The central (mean) value of the signal, called the <em><a href="https://en.wikipedia.org/wiki/DC_bias">DC offset</a></em>, is zero volts; the signal swings around that central value, <em><a href="https://en.wikipedia.org/wiki/Alternating_current">alternating</a></em> between positive and negative voltage. In this example, our full-scale digital stream was converted to an analog signal that swings between -1.41 V and +1.41 V. Depending on the specific model of DAC used, its volume control setting (if any) and the signals involved, these numbers can vary — typical peak amplitude can go as low as 0.5 V <strong class="inlineFootnoteDecoration"> [ref] </strong><span class="inlineFootnote inlineFootnote-ref">Wikipedia, <em><a href="https://en.wikipedia.org/wiki/Line_level#Nominal_levels">Nominal levels</a></em>, peak amplitude for consumer audio</span><strong class="inlineFootnoteDecoration"> [end ref] </strong> or as high as 2.8 V <strong class="inlineFootnoteDecoration"> [ref] </strong><span class="inlineFootnote inlineFootnote-ref"><a href="https://webstore.iec.ch/publication/6142">IEC 61938:2013</a>, <em>Guide to the recommended characteristics of analogue interfaces to achieve interoperability</em>, §8.2.1</span><strong class="inlineFootnoteDecoration"> [end ref] </strong>.</p>
 
@@ -174,7 +175,7 @@ ga('send', 'pageview');
 
     <div class="share">
         
-            <a class="icon-twitter" href="https://twitter.com/share?text=Life%20of%20an%20audio%20signal&url=https%3a%2f%2ffactualaudio.com%2fpost%2flife%2f"
+            <a class="icon-twitter" href="https://twitter.com/share?text=From%20bytes%20to%20your%20eardrum&url=https%3a%2f%2ffactualaudio.com%2fpost%2flife%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
