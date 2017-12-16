@@ -1,250 +1,80 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Anatomy of an audio signal &middot; Factual Audio</title>
-        <meta name="description" content="This inaugural Factual post starts from first principles, by laying down some of the fundamental foundations necessary to start reasoning about audio signals. I will then build on these principles in the posts to follow.
-The time domain An audio signal is an oscillating phenomenon: it is defined by a quantity that alternatively increases and decreases over time while keeping in the vicinity of some central value.
-Out of the infinity of shapes that an audio signal can take, probably the simplest is a pure tone, also called a sine wave from the name of the mathematical function that it describes.">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.25.1" />
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="https://factualaudio.com/dist/styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="icon" href="https://factualaudio.com/icon.png" type="image/png">
-<link rel="stylesheet" href="https://factualaudio.com/bigfoot/dist/bigfoot-default.css">
-<link rel="stylesheet" href="https://factualaudio.com/styles.css">
-<script type="text/javascript" src="https://factualaudio.com/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/bigfoot/dist/bigfoot.min.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/replacewithsvg.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/inline_footnotes.js"></script>
-<script type="text/javascript">
-	$.bigfoot();
-</script>
-
-    </head>
-    <body>
-        
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-109981744-1', 'auto');
-ga('send', 'pageview');
-</script>
-
-
-        <div id="wrapper">
-            <header class="site-header">
-                <div class="container">
-                    <div class="site-title-wrapper">
-                        
-                            <h1 class="site-title">
-                                <a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a>
-                            </h1>
-                        
-                        <a class="button-square" href="https://factualaudio.com/index.xml"><i class="fa fa-rss"></i></a>
-                        
-                            <a class="button-square button-social hint--top" data-hint="Facebook" title="Facebook" href="https://www.facebook.com/FactualAudio/">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/FactualAudio">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                    </div>
-
-                    <ul class="site-nav">
-                        
-                    </ul>
-                </div>
-            </header>
-
-            <div id="container">
-
-
+<html lang="en">
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.0">
+<meta charset="utf-8">
+<title>Anatomy of an audio signal · Factual Audio</title>
+<meta name="description" content="This inaugural Factual post starts from first principles, by laying down some of the fundamental foundations necessary to start reasoning about audio signals. I will then build on these principles in the posts to follow. The time domain An audio signal is an oscillating phenomenon: it is defined by a quantity that alternatively increases and decreases over time while keeping in the vicinity of some central value. Out of the infinity of shapes that an audio signal can take, probably the simplest is a pure tone, also called a sine wave from the name of the mathematical function that it describes.">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="generator" content="Hugo 0.26">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://factualaudio.com/combined.fingerprint-6d8cd2a.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://factualaudio.com/icon.fingerprint-6eb717b.png" type="image/png"><script defer="defer" src="https://factualaudio.com/combined.fingerprint-c807bb8.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header class="site-header">
 <div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Anatomy of an audio signal</h1>
-    
-    <p class="post-date">
-        <span>Published <time datetime="2017-11-21" itemprop="datePublished">Tue, Nov 21, 2017</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a>
-            </span>
-        </span>
-    </p>
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square" href="https://factualaudio.com/index.xml"><i class="fa fa-rss"></i></a> <a class="button-square button-social hint--top" data-hint="Facebook" title="Facebook" href="https://www.facebook.com/FactualAudio/"><i class="fa fa-facebook"></i></a> <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/FactualAudio"><i class="fa fa-twitter"></i></a></div>
+<ul class="site-nav"></ul></div>
 </header>
-
-        <div class="post-content clearfix" itemprop="articleBody">
-    
-
-    
-
+<div id="container">
+<div class="container">
+<article class="post-container" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<header class="post-header">
+<h1 class="post-title" itemprop="name headline">Anatomy of an audio signal</h1>
+<p class="post-date"><span>Published <time datetime="2017-11-21" itemprop="datePublished">Tue, Nov 21, 2017</time></span> <span>by</span> <span itemscope="itemscope" itemprop="author" itemtype="https://schema.org/Person"><span itemprop="name"><a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a></span></span></p>
+</header>
+<div class="post-content clearfix" itemprop="articleBody">
 <p>This inaugural Factual post starts from first principles, by laying down some of the fundamental foundations necessary to start reasoning about audio signals. I will then build on these principles in the posts to follow.</p>
-
 <h1 id="the-time-domain">The time domain</h1>
-
 <p>An audio signal is an oscillating phenomenon: it is defined by a quantity that alternatively increases and decreases over time while keeping in the vicinity of some central value.</p>
-
 <p>Out of the infinity of shapes that an audio signal can take, probably the simplest is a <em>pure tone</em>, also called a <em>sine wave</em> from the name of the <a href="https://en.wikipedia.org/wiki/Sine">mathematical function</a> that it describes. Here is an example of a sine wave:</p>
-
-<img src="https://factualaudio.com/plots/1khz-sine-wave.png" width="100%" class="figure replacewithsvg">
-
-
-<p>The horizontal axis is time, which is why it is often said that this representation shows the signal in the <em><a href="https://en.wikipedia.org/wiki/Time_domain">time domain</a></em> (another term is <em><a href="https://en.wikipedia.org/wiki/Waveform">waveform</a></em>). The above signal oscillates around the central value represented by the horizontal line. According to the horizontal scale, this particular signal repeats one thousand times per second: it has a <em><a href="https://en.wikipedia.org/wiki/Frequency">frequency</a></em> of 1000 <a href="https://en.wikipedia.org/wiki/Hertz">hertz</a>. In order to be audible, the frequency of the signal must sit between 20 Hz and 20 kHz: this interval is known as the <em><a href="https://en.wikipedia.org/wiki/Hearing_range">audible range</a></em> of the human hearing system.</p>
-
+<img src="https://factualaudio.com/plots/1khz-sine-wave.fingerprint-4d02478.png" class="figure" alt="1&#160;kHz pure tone waveform" data-svg-alternative="https://factualaudio.com/plots/1khz-sine-wave.fingerprint-927faf6.svg">
+<p>The horizontal axis is time, which is why it is often said that this representation shows the signal in the <em><a href="https://en.wikipedia.org/wiki/Time_domain">time domain</a></em> (another term is <em><a href="https://en.wikipedia.org/wiki/Waveform">waveform</a></em>). The above signal oscillates around the central value represented by the horizontal line. According to the horizontal scale, this particular signal repeats one thousand times per second: it has a <em><a href="https://en.wikipedia.org/wiki/Frequency">frequency</a></em> of 1000 <a href="https://en.wikipedia.org/wiki/Hertz">hertz</a>. In order to be audible, the frequency of the signal must sit between 20&#160;Hz and 20&#160;kHz: this interval is known as the <em><a href="https://en.wikipedia.org/wiki/Hearing_range">audible range</a></em> of the human hearing system.</p>
 <p>In the image above, the height of the signal is known as the <em><a href="https://en.wikipedia.org/wiki/Amplitude">amplitude</a></em> (the term <em>magnitude</em> is also used). I deliberately left out the vertical scale and unit because they depend on the context — more on this to follow in the post about <a href="https://factualaudio.com/post/life/">audio realms</a>. Another complication is that the “height” of the curve can be defined in multiple different ways — which are explored in a <a href="https://factualaudio.com/post/amplitude/">separate post</a> as well.</p>
-
 <p>Amplitude is related to <em><a href="https://en.wikipedia.org/wiki/Loudness">loudness</a></em>, in the sense that if we take a signal and increase its amplitude (by <em>amplifying</em> its oscillations), the human hearing system will perceive the signal to be louder. Likewise, if we decrease its amplitude (by <em>attenuating</em>), it will be perceived as being quieter.</p>
-
-<p class="caution"><strong class="caution-label">Caution: </strong>This relationship between amplitude and loudness does not necessarily hold when comparing signals that have differing frequencies. This is due to the fact that the human hearing system does not perceive all frequencies as being equally loud <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">The effect can be quantified using <a href="https://en.wikipedia.org/wiki/Equal-loudness_contour">equal-loudness contours</a>.</span><strong class="inlineFootnoteDecoration"> [end note] </strong>. For example, if you listen to a 30 Hz tone and then to a 2 kHz tone of equal amplitude, the latter will sound much louder than the former.</p>
-
-
+<p class="caution"><strong class="caution-label">Caution:</strong> This relationship between amplitude and loudness does not necessarily hold when comparing signals that have differing frequencies. This is due to the fact that the human hearing system does not perceive all frequencies as being equally loud <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">The effect can be quantified using <a href="https://en.wikipedia.org/wiki/Equal-loudness_contour">equal-loudness contours</a>.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> . For example, if you listen to a 30&#160;Hz tone and then to a 2&#160;kHz tone of equal amplitude, the latter will sound much louder than the former.</p>
 <p>Of course, most audio content is not a pure tone. In practice, an audio signal for, say, music, might look like this:</p>
-
-<img src="https://factualaudio.com/plots/piano-c5-wave.png" width="100%" class="figure replacewithsvg">
-
-
-<p>As the above image shows, a musical signal is way more complex than a pure tone. And that’s not even a complicated musical piece — this is pianist Joohyun Park, solo, playing a single note <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Specifically, this is one of the first notes played at the beginning of the <em>Allegro</em> track from <em><a href="http://www.bearmccreary.com/blog/blog/battlestar-galactica-3/battlestar-galactica-solo-piano-cd/">The Music of Battlestar Galactica for Solo Piano</a></em>.</span><strong class="inlineFootnoteDecoration"> [end note] </strong>. What’s really problematic, however, is that this representation doesn’t seem to relate to our perception at all — to the naked eye, it doesn’t look like a musical note played on a piano.</p>
-
+<img src="https://factualaudio.com/plots/piano-c5-wave.fingerprint-768ffa1.png" class="figure" alt="Piano C5&#160;waveform" data-svg-alternative="https://factualaudio.com/plots/piano-c5-wave.fingerprint-74a1be1.svg">
+<p>As the above image shows, a musical signal is way more complex than a pure tone. And that’s not even a complicated musical piece — this is pianist Joohyun Park, solo, playing a single note <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">Specifically, this is one of the first notes played at the beginning of the <em>Allegro</em> track from <em><a href="http://www.bearmccreary.com/blog/blog/battlestar-galactica-3/battlestar-galactica-solo-piano-cd/">The Music of Battlestar Galactica for Solo Piano</a></em>.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> . What’s really problematic, however, is that this representation doesn’t seem to relate to our perception at all — to the naked eye, it doesn’t look like a musical note played on a piano.</p>
 <h1 id="the-frequency-domain">The frequency domain</h1>
-
 <p>In order to make sense of such complex signals, we need a better way to look at the data. Fortunately, the above signal can be decomposed into a number of pure tones of various frequencies and amplitudes, thanks to the <em><a href="https://en.wikipedia.org/wiki/Superposition_principle">superposition principle</a></em>. The mathematical tool used to do the decomposition is called the <em><a href="https://en.wikipedia.org/wiki/Fourier_transform">Fourier transform</a></em>. For example, if we were to apply the Fourier transform to our first pure tone example, the result could be represented as follows:</p>
-
-<img src="https://factualaudio.com/plots/1khz-sine-spectrum.png" width="100%" class="figure replacewithsvg">
-
-
+<img src="https://factualaudio.com/plots/1khz-sine-spectrum.fingerprint-bebac5e.png" class="figure" alt="1&#160;kHz pure tone spectrum" data-svg-alternative="https://factualaudio.com/plots/1khz-sine-spectrum.fingerprint-5cec11f.svg">
 <p>The vertical axis is still amplitude, but the horizontal axis has changed — it now represents frequency. This representation shows the signal in the <em><a href="https://en.wikipedia.org/wiki/Frequency_domain">frequency domain</a></em>, or, in other words, it shows the <em><a href="https://en.wikipedia.org/wiki/Spectral_density">spectral density</a></em> (often simply called <em>spectrum</em>) of the signal.</p>
-
-<p>A keen eye might have noticed that the horizontal axis is using a <a href="https://en.wikipedia.org/wiki/Logarithmic_scale#Graphic_representation">logarithmic scale</a>, which is commonplace for this type of plot. This scale provides a better view of how we perceive sound: it is very easy to hear the difference between a 100 Hz tone and a 200 Hz tone, but the same cannot be said about 10000 Hz and 10100 Hz tones, even though the difference is still 100 Hz. This is because in the former case, there is a 100% increase, while in the latter case, the increase is only 1%. In other words, the human auditory system perceives <em>relative change</em>, as opposed to absolute change <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">This is consistent with other human senses, as predicted by the <a href="https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law">Weber-Fechner law</a>.</span><strong class="inlineFootnoteDecoration"> [end note] </strong>. The term <em><a href="https://en.wikipedia.org/wiki/Octave">octave</a></em> is used to describe a frequency factor of two; for example, the range 2 kHz to 8 kHz is two octaves wide. The term <em><a href="https://en.wikipedia.org/wiki/Decade_%28log_scale%29">decade</a></em> is also sometimes used, and describes a tenfold increase in frequency.</p>
-
-<p>The above plot is showing us that the signal can be decomposed into a single 1 kHz tone, but we already knew that. What’s more interesting is what happens when we apply the Fourier transform to the musical signal:</p>
-
-<img src="https://factualaudio.com/plots/piano-c5-spectrum.png" width="100%" class="figure replacewithsvg">
-
-
-<p>Here things become interesting. This plot is telling us that our musical example can be decomposed into a 260 Hz tone with high amplitude, combined with 520 Hz and 780 Hz tones of lower amplitude.</p>
-
-<p>Such a result is typical of a recording of an instrument playing a single note. The first tone, at 260 Hz, is called the <em><a href="https://en.wikipedia.org/wiki/Fundamental_frequency">fundamental</a></em> and indicates the <em><a href="https://en.wikipedia.org/wiki/Pitch_%28music%29">pitch</a></em> of the sound, in other words the note being played, <a href="https://en.wikipedia.org/wiki/C_%28musical_note%29#Designation_by_octave">C5</a> in this example. The 520 Hz and 780 Hz tones, because they are <em>multiples</em> of the fundamental, are called <em><a href="https://en.wikipedia.org/wiki/Harmonic">harmonics</a></em>. They are interpreted by the human hearing system to determine the <em><a href="https://en.wikipedia.org/wiki/Timbre">timbre</a></em> of the instrument. If the same note was being played on say, a flute or a violin, the frequency of the fundamental would be the same but the relative amplitudes of the harmonics would be different.</p>
-
+<p>A keen eye might have noticed that the horizontal axis is using a <a href="https://en.wikipedia.org/wiki/Logarithmic_scale#Graphic_representation">logarithmic scale</a>, which is commonplace for this type of plot. This scale provides a better view of how we perceive sound: it is very easy to hear the difference between a 100&#160;Hz tone and a 200&#160;Hz tone, but the same cannot be said about 10000&#160;Hz and 10100&#160;Hz tones, even though the difference is still 100&#160;Hz. This is because in the former case, there is a 100% increase, while in the latter case, the increase is only 1%. In other words, the human auditory system perceives <em>relative change</em>, as opposed to absolute change <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">This is consistent with other human senses, as predicted by the <a href="https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law">Weber-Fechner law</a>.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> . The term <em><a href="https://en.wikipedia.org/wiki/Octave">octave</a></em> is used to describe a frequency factor of two; for example, the range 2&#160;kHz to 8&#160;kHz is two octaves wide. The term <em><a href="https://en.wikipedia.org/wiki/Decade_%28log_scale%29">decade</a></em> is also sometimes used, and describes a tenfold increase in frequency.</p>
+<p>The above plot is showing us that the signal can be decomposed into a single 1&#160;kHz tone, but we already knew that. What’s more interesting is what happens when we apply the Fourier transform to the musical signal:</p>
+<img src="https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-115c481.png" class="figure" alt="Piano C5&#160;spectrum" data-svg-alternative="https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-fd8b844.svg">
+<p>Here things become interesting. This plot is telling us that our musical example can be decomposed into a 260&#160;Hz tone with high amplitude, combined with 520&#160;Hz and 780&#160;Hz tones of lower amplitude.</p>
+<p>Such a result is typical of a recording of an instrument playing a single note. The first tone, at 260&#160;Hz, is called the <em><a href="https://en.wikipedia.org/wiki/Fundamental_frequency">fundamental</a></em> and indicates the <em><a href="https://en.wikipedia.org/wiki/Pitch_%28music%29">pitch</a></em> of the sound, in other words the note being played, <a href="https://en.wikipedia.org/wiki/C_%28musical_note%29#Designation_by_octave">C5</a> in this example. The 520&#160;Hz and 780&#160;Hz tones, because they are <em>multiples</em> of the fundamental, are called <em><a href="https://en.wikipedia.org/wiki/Harmonic">harmonics</a></em>. They are interpreted by the human hearing system to determine the <em><a href="https://en.wikipedia.org/wiki/Timbre">timbre</a></em> of the instrument. If the same note was being played on say, a flute or a violin, the frequency of the fundamental would be the same but the relative amplitudes of the harmonics would be different.</p>
 <p>This is interesting because we can directly relate what we see on the plot to how the sound will be <em>perceived</em>, i.e. what the signal sounds like. Of course interpreting this data still requires some effort — most people wouldn’t be able to tell “of course that’s a piano playing a C5” just by eyeballing the above image. Furthermore, if I had used a more complex example (such as a symphonic orchestra playing in unison), the spectrum would have been just as unreadable as the waveform. Nevertheless, in practice, the spectrum often provides a much more useful view from a <em>perceptual</em> perspective. This is why audio engineers will often ignore the time domain, instead focusing their efforts on the frequency domain.</p>
-
-<p>Frequency-domain data can be converted back to the time domain using the appropriately-named <em>inverse Fourier transform</em>. One might wonder if any information gets lost during these conversions. From a purely mathematical point of view, the answer is no, but there is a catch. The above plots do not show the full output of the Fourier transform. In reality, the result of the Fourier transform includes <em>amplitude</em> information (which is shown above) and <em><a href="https://en.wikipedia.org/wiki/Phase_%28waves%29">phase</a></em> information (which I omitted). Amplitude determines the levels of the constituent tones, while phase determines their <em>timing</em>, or in other words, how they are offset from each other in time. I opted not to mention phase until now because it is rarely useful when discussing audio equipment. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Audibility of <a href="https://en.wikipedia.org/wiki/Phase_distortion">phase distortion</a> is a subject of <a href="http://www.silcom.com/~aludwig/Phase_audibility.htm">intense debate</a>, which I might get back to in a later post.</span><strong class="inlineFootnoteDecoration"> [end note] </strong> As long as phase information is not discarded, it is possible to recover the original waveform, intact, simply by applying the <a href="https://en.wikipedia.org/wiki/Fourier_inversion_theorem">inverse Fourier transform</a>.</p>
-
+<p>Frequency-domain data can be converted back to the time domain using the appropriately-named <em>inverse Fourier transform</em>. One might wonder if any information gets lost during these conversions. From a purely mathematical point of view, the answer is no, but there is a catch. The above plots do not show the full output of the Fourier transform. In reality, the result of the Fourier transform includes <em>amplitude</em> information (which is shown above) and <em><a href="https://en.wikipedia.org/wiki/Phase_%28waves%29">phase</a></em> information (which I omitted). Amplitude determines the levels of the constituent tones, while phase determines their <em>timing</em>, or in other words, how they are offset from each other in time. I opted not to mention phase until now because it is rarely useful when discussing audio equipment. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">Audibility of <a href="https://en.wikipedia.org/wiki/Phase_distortion">phase distortion</a> is a subject of <a href="http://www.silcom.com/~aludwig/Phase_audibility.htm">intense debate</a>, which I might get back to in a later post.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> As long as phase information is not discarded, it is possible to recover the original waveform, intact, simply by applying the <a href="https://en.wikipedia.org/wiki/Fourier_inversion_theorem">inverse Fourier transform</a>.</p>
 </div>
-
-        <footer class="post-footer clearfix">
-    
-
-    <div class="share">
-        
-            <a class="icon-twitter" href="https://twitter.com/share?text=Anatomy%20of%20an%20audio%20signal&url=https%3a%2f%2ffactualaudio.com%2fpost%2fanatomy%2f"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="fa fa-twitter"></i>
-                <span class="hidden">Twitter</span>
-            </a>
-        
-
-        
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffactualaudio.com%2fpost%2fanatomy%2f"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                <i class="fa fa-facebook"></i>
-                <span class="hidden">Facebook</span>
-            </a>
-        
-
-        
-        
-    </div>
+<footer class="post-footer clearfix">
+<div class="share"><a class="icon-twitter" href="https://twitter.com/share?text=Anatomy%20of%20an%20audio%20signal&amp;url=https%3a%2f%2ffactualaudio.com%2fpost%2fanatomy%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i> <span class="hidden">Twitter</span></a> <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffactualaudio.com%2fpost%2fanatomy%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook"></i> <span class="hidden">Facebook</span></a></div>
 </footer>
-
-        
-    <div class="comments">
-        <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "factualaudio" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
-
-    </article>
+<div class="comments">
+<div id="disqus_thread"></div></div>
+</article>
 </div>
-
-            </div>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="site-title-wrapper">
-                    <h1 class="site-title">
-                        <a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a>
-                    </h1>
-                    <a class="button-square button-jump-top js-jump-top" href="#">
-                        <i class="fa fa-angle-up"></i>
-                    </a>
-                </div>
-
-		<p class="footer-about">
-	<a href="https://factualaudio.com/page/about/">About Factual Audio</a>
-</p>
-<p class="footer-copyright">
-	This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-</p>
-
-
-                <p class="footer-copyright">
-                    <span>&copy; 2017 <a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
-                </p>
-            </div>
-        </footer>
-
-        <script src="https://factualaudio.com/js/jquery-1.11.3.min.js"></script>
-        <script src="https://factualaudio.com/js/jquery.fitvids.js"></script>
-        
-        
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        
-        
-        <script src="https://factualaudio.com/js/scripts.js"></script>
-    </body>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a></div>
+<p class="footer-about"><a href="https://factualaudio.com/page/about/">About Factual Audio</a></p>
+<p class="footer-copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p class="footer-copyright"><span>© 2017 <a href="/page/about/" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span></p>
+<p class="footer-copyright"><span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span> <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span></p>
+</div>
+</footer>
+</body>
 </html>
-

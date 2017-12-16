@@ -1,133 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Decibels, explained &middot; Factual Audio</title>
-        <meta name="description" content="In the previous post, I introduced a number of physical quantities that are used to describe the amplitude of an audio signal:
- In the digital domain, it is a sample value; In the analog domain, it is voltage in volts (V); In the acoustic domain, it is a pressure difference in pascals (Pa).  However, in the audio literature, marketing materials and equipment specifications, these are not the units that are typically used.">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.25.1" />
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="https://factualaudio.com/dist/styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="icon" href="https://factualaudio.com/icon.png" type="image/png">
-<link rel="stylesheet" href="https://factualaudio.com/bigfoot/dist/bigfoot-default.css">
-<link rel="stylesheet" href="https://factualaudio.com/styles.css">
-<script type="text/javascript" src="https://factualaudio.com/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/bigfoot/dist/bigfoot.min.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/replacewithsvg.js"></script>
-<script type="text/javascript" src="https://factualaudio.com/inline_footnotes.js"></script>
-<script type="text/javascript">
-	$.bigfoot();
-</script>
-
-    </head>
-    <body>
-        
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-109981744-1', 'auto');
-ga('send', 'pageview');
-</script>
-
-
-        <div id="wrapper">
-            <header class="site-header">
-                <div class="container">
-                    <div class="site-title-wrapper">
-                        
-                            <h1 class="site-title">
-                                <a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a>
-                            </h1>
-                        
-                        <a class="button-square" href="https://factualaudio.com/index.xml"><i class="fa fa-rss"></i></a>
-                        
-                            <a class="button-square button-social hint--top" data-hint="Facebook" title="Facebook" href="https://www.facebook.com/FactualAudio/">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/FactualAudio">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                    </div>
-
-                    <ul class="site-nav">
-                        
-                    </ul>
-                </div>
-            </header>
-
-            <div id="container">
-
-
+<html lang="en">
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.0">
+<meta charset="utf-8">
+<title>Decibels, explained · Factual Audio</title>
+<meta name="description" content="In the previous post, I introduced a number of physical quantities that are used to describe the amplitude of an audio signal: In the digital domain, it is a sample value; In the analog domain, it is voltage in volts (V); In the acoustic domain, it is a pressure difference in pascals (Pa). However, in the audio literature, marketing materials and equipment specifications, these are not the units that are typically used.">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="generator" content="Hugo 0.26">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://factualaudio.com/combined.fingerprint-6d8cd2a.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://factualaudio.com/icon.fingerprint-6eb717b.png" type="image/png"><script defer="defer" src="https://factualaudio.com/combined.fingerprint-c807bb8.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header class="site-header">
 <div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Decibels, explained</h1>
-    
-    <p class="post-date">
-        <span>Published <time datetime="2017-11-21" itemprop="datePublished">Tue, Nov 21, 2017</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a>
-            </span>
-        </span>
-    </p>
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square" href="https://factualaudio.com/index.xml"><i class="fa fa-rss"></i></a> <a class="button-square button-social hint--top" data-hint="Facebook" title="Facebook" href="https://www.facebook.com/FactualAudio/"><i class="fa fa-facebook"></i></a> <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/FactualAudio"><i class="fa fa-twitter"></i></a></div>
+<ul class="site-nav"></ul></div>
 </header>
-
-        <div class="post-content clearfix" itemprop="articleBody">
-    
-
-    
-
+<div id="container">
+<div class="container">
+<article class="post-container" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<header class="post-header">
+<h1 class="post-title" itemprop="name headline">Decibels, explained</h1>
+<p class="post-date"><span>Published <time datetime="2017-11-21" itemprop="datePublished">Tue, Nov 21, 2017</time></span> <span>by</span> <span itemscope="itemscope" itemprop="author" itemtype="https://schema.org/Person"><span itemprop="name"><a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a></span></span></p>
+</header>
+<div class="post-content clearfix" itemprop="articleBody">
 <p>In the <a href="https://factualaudio.com/post/life/">previous post</a>, I introduced a number of physical quantities that are used to describe the <em><a href="https://factualaudio.com/post/anatomy/">amplitude</a></em> of an audio signal:</p>
-
 <ul>
 <li>In the digital domain, it is a <em>sample value</em>;</li>
 <li>In the analog domain, it is voltage in <em>volts</em> (V);</li>
 <li>In the acoustic domain, it is a pressure difference in <em>pascals</em> (Pa).</li>
 </ul>
-
 <p>However, in the audio literature, marketing materials and equipment specifications, these are not the units that are typically used. Instead, one often finds such quantities expressed in <em>decibels</em> (dB) or a related unit. There are good reasons for this, and they have to do with how we humans perceive loudness.</p>
-
 <h1 id="on-the-usefulness-of-ratios">On the usefulness of ratios</h1>
-
-<p>In audio, we care more about <em>ratios</em> of quantities (e.g. &ldquo;2×&rdquo;) than absolute values (e.g. &ldquo;3 V&rdquo;). To understand why, here’s an example:</p>
-
+<p>In audio, we care more about <em>ratios</em> of quantities (e.g. “2×”) than absolute values (e.g. “3&#160;V”). To understand why, here’s an example:</p>
 <ul>
-<li>The difference in loudness between 0.1 Pa and 0.2 Pa is very noticeable.</li>
-<li>The difference in loudness between 1.0 Pa and 1.1 Pa is barely noticeable.</li>
+<li>The difference in loudness between 0.1&#160;Pa and 0.2&#160;Pa is very noticeable.</li>
+<li>The difference in loudness between 1.0&#160;Pa and 1.1&#160;Pa is barely noticeable.</li>
 </ul>
-
-<p>In both cases the absolute difference is the same: 0.1 Pa. However, the ratio is very different; in the former case it’s 2×, in the latter case it’s 1.1×. This makes a compelling case for using ratios, not differences, when comparing amplitudes.</p>
-
+<p>In both cases the absolute difference is the same: 0.1&#160;Pa. However, the ratio is very different; in the former case it’s 2×, in the latter case it’s 1.1×. This makes a compelling case for using ratios, not differences, when comparing amplitudes.</p>
 <p>There is another advantage to using ratios. Remember that all three quantities (sample value, voltage, and sound pressure) are (hopefully) <em>proportional</em> to each other when the audio signal moves from one realm to the next. This means that a given ratio applies in all three domains: twice the sample value is also twice the voltage and twice the sound pressure. This is very convenient because it means that a given ratio (often called <a href="https://en.wikipedia.org/wiki/Gain_%28electronics%29">gain</a>) has the same meaning regardless of context.</p>
-
 <p>Now, if only there was a unit that made working with ratios easier…</p>
-
 <h1 id="enter-the-decibel">Enter the decibel</h1>
-
 <p>The <em>decibel</em> (dB) is, in its purest form, a <em><a href="https://en.wikipedia.org/wiki/Dimensionless_quantity">dimensionless unit</a></em> that represents a ratio between two quantities, just like “×” or “%”. What sets the decibel apart is that it is also a <em><a href="https://en.wikipedia.org/wiki/Logarithmic_scale">logarithmic unit</a></em>, meaning that its value is proportional to the <em><a href="https://en.wikipedia.org/wiki/Logarithm">logarithm</a></em> of the ratio, not the ratio itself. This will be clearer with examples:</p>
-
 <table>
 <thead>
 <tr>
@@ -135,77 +57,59 @@ ga('send', 'pageview');
 <th>Decibel equivalent</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>0.01×</td>
-<td>-40 dB</td>
+<td>-40&#160;dB</td>
 </tr>
-
 <tr>
 <td>0.1×</td>
-<td>-20 dB</td>
+<td>-20&#160;dB</td>
 </tr>
-
 <tr>
 <td>0.5×</td>
-<td>-6 dB</td>
+<td>-6&#160;dB</td>
 </tr>
-
 <tr>
 <td>1×</td>
-<td>0 dB</td>
+<td>0&#160;dB</td>
 </tr>
-
 <tr>
 <td>2×</td>
-<td>+6 dB</td>
+<td>+6&#160;dB</td>
 </tr>
-
 <tr>
 <td>4×</td>
-<td>+12 dB</td>
+<td>+12&#160;dB</td>
 </tr>
-
 <tr>
 <td>8×</td>
-<td>+18 dB</td>
+<td>+18&#160;dB</td>
 </tr>
-
 <tr>
 <td>10×</td>
-<td>+20 dB</td>
+<td>+20&#160;dB</td>
 </tr>
-
 <tr>
 <td>100×</td>
-<td>+40 dB</td>
+<td>+40&#160;dB</td>
 </tr>
 </tbody>
 </table>
-
 <p>Because the decibel is a logarithmic unit, it behaves differently from more conventional linear units. The trick is to not fight their logarithmic nature, but embrace it. Here’s how:</p>
-
 <ul>
-<li>The most useful ratios to keep in mind are +6 dB (2×) and +20 dB (10×).</li>
-<li>To invert the ratio, just change the sign: for example, -6 dB is the same as dividing by 2.</li>
-<li>When combining ratios, decibels don’t multiply; they add up. For example, 4× (2×2) is 12 dB (6+6), not 36. This might seem strange, but this property makes decibels very convenient to use in practice — it’s easier to add than to multiply.</li>
-<li>0 dB means 1×, i.e. no change in amplitude.</li>
+<li>The most useful ratios to keep in mind are +6&#160;dB (2×) and +20&#160;dB (10×).</li>
+<li>To invert the ratio, just change the sign: for example, -6&#160;dB is the same as dividing by 2.</li>
+<li>When combining ratios, decibels don’t multiply; they add up. For example, 4× (2×2) is 12&#160;dB (6+6), not 36. This might seem strange, but this property makes decibels very convenient to use in practice — it’s easier to add than to multiply.</li>
+<li>0&#160;dB means 1×, i.e. no change in amplitude.</li>
 <li>0× is -∞ dB (negative infinity). You might have seen this as the “mute” position on some volume knobs.</li>
 <li>For less trivial cases, <a href="http://www.sengpielaudio.com/calculator-db.htm">online calculators</a> are available.</li>
 </ul>
-
-<p class="caution"><strong class="caution-label">Caution: </strong>All of the above assumes decibels are used to express ratios of <a href="https://en.wikipedia.org/wiki/Field,_power,_and_root-power_quantities">field quantities</a>. Digital sample value, voltage, and sound pressure are examples of field quantities. When dealing with <em>power</em> quantities (i.e. watts), however, there is a catch: in that case, +6 dB is 4×, not 2×, which is +3 dB. This might seem strange and confusing, but once again there is an explanation: in practice power is proportional to the <em>square</em> of the field quantity. So, for example, when voltage is doubled, power quadruples. Or, said differently, if voltage is increased by 6 dB, then power increases by… 6 dB — which is why the rules makes sense.</p>
-
-
+<p class="caution"><strong class="caution-label">Caution:</strong> All of the above assumes decibels are used to express ratios of <a href="https://en.wikipedia.org/wiki/Field,_power,_and_root-power_quantities">field quantities</a>. Digital sample value, voltage, and sound pressure are examples of field quantities. When dealing with <em>power</em> quantities (i.e. watts), however, there is a catch: in that case, +6&#160;dB is 4×, not 2×, which is +3&#160;dB. This might seem strange and confusing, but once again there is an explanation: in practice power is proportional to the <em>square</em> of the field quantity. So, for example, when voltage is doubled, power quadruples. Or, said differently, if voltage is increased by 6&#160;dB, then power increases by… 6&#160;dB — which is why the rules makes sense.</p>
 <h1 id="using-decibels-for-absolute-values">Using decibels for absolute values</h1>
-
-<p>In theory, one could stick with linear units when dealing with absolute values (e.g. 2 V), and use decibels when dealing with ratios (e.g. 2×). However, when a calculation involves both, the mental gymnastics can be challenging. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Not convinced? Try calculating 2 V × -11 dB by hand.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
-
-<p>It would make more sense to use decibels for everything, including absolute quantities. Fortunately, that’s easy: we just need to agree on a reference, and then express in decibels the ratio between that reference and the quantity we wish to convey. The resulting decibel value is called <em><a href="https://en.wikipedia.org/wiki/Level_%28logarithmic_quantity%29">level</a></em>. For example, if the reference is 1 V, then the level of 2 V is +6 dB. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">And the calculation from the previous note becomes 6 dB - 11 dB = -5 dB. Much easier!</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
-
+<p>In theory, one could stick with linear units when dealing with absolute values (e.g. 2&#160;V), and use decibels when dealing with ratios (e.g. 2×). However, when a calculation involves both, the mental gymnastics can be challenging. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">Not convinced? Try calculating 2&#160;V × -11&#160;dB by hand.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
+<p>It would make more sense to use decibels for everything, including absolute quantities. Fortunately, that’s easy: we just need to agree on a reference, and then express in decibels the ratio between that reference and the quantity we wish to convey. The resulting decibel value is called <em><a href="https://en.wikipedia.org/wiki/Level_%28logarithmic_quantity%29">level</a></em>. For example, if the reference is 1&#160;V, then the level of 2&#160;V is +6&#160;dB. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">And the calculation from the previous note becomes 6&#160;dB - 11&#160;dB = -5&#160;dB. Much easier!</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
 <p>In practice, the reference value is indicated by a suffix affixed to the unit. Here are some references commonly used in the three audio realms:</p>
-
 <table>
 <thead>
 <tr>
@@ -214,132 +118,51 @@ ga('send', 'pageview');
 <th>Equivalent level</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Sound pressure</td>
-<td>20 µPa</td>
+<td>20&#160;µPa</td>
 <td>0 <a href="https://en.wikipedia.org/wiki/Sound_pressure#Sound_pressure_level">dB SPL</a></td>
 </tr>
-
 <tr>
 <td>Voltage</td>
-<td>1 V</td>
+<td>1&#160;V</td>
 <td>0 <a href="https://en.wikipedia.org/wiki/Decibel#Voltage">dBV</a></td>
 </tr>
-
 <tr>
 <td>Voltage</td>
-<td>~0.77 V</td>
-<td>0 <a href="https://en.wikipedia.org/wiki/Decibel#Voltage">dBu</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Yes, there are two different references in common use for voltages. That’s sad, but that’s the way it is. To convert from one to the other, add or subtract ~2.2 dB.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
+<td>~0.77&#160;V</td>
+<td>0 <a href="https://en.wikipedia.org/wiki/Decibel#Voltage">dBu</a> <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">Yes, there are two different references in common use for voltages. That’s sad, but that’s the way it is. To convert from one to the other, add or subtract ~2.2&#160;dB.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></td>
 </tr>
-
 <tr>
 <td>Sample value</td>
 <td>Full scale</td>
-<td>0 <a href="https://en.wikipedia.org/wiki/DBFS">dBFS</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">In other words, 0 dBFS is the maximum level before digital clipping (truncation) occurs. Thus valid amplitudes have negative dBFS values. Or at least that’s how it’s supposed to work. The definition of dBFS can be quite fuzzy and ambiguous, as explained in that Wikipedia page. Caveat emptor.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
+<td>0 <a href="https://en.wikipedia.org/wiki/DBFS">dBFS</a> <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote inlineFootnote-note">In other words, 0&#160;dBFS is the maximum level before digital clipping (truncation) occurs. Thus valid amplitudes have negative dBFS values. Or at least that’s how it’s supposed to work. The definition of dBFS can be quite fuzzy and ambiguous, as explained in that Wikipedia page. Caveat emptor.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></td>
 </tr>
 </tbody>
 </table>
-
-<p>Sometimes the suffix is omitted and has to be inferred from the context. For example, it is fairly common to find “dB SPL” written as simply “dB”, especially in mainstream publications. This is best avoided as it can lead to confusion between ratios and levels. Conversely, “dBr” (&ldquo;relative&rdquo;) is sometimes used to make it explicit that decibels are used to express a ratio, not a level.</p>
-
+<p>Sometimes the suffix is omitted and has to be inferred from the context. For example, it is fairly common to find “dB SPL” written as simply “dB”, especially in mainstream publications. This is best avoided as it can lead to confusion between ratios and levels. Conversely, “dBr” (“relative”) is sometimes used to make it explicit that decibels are used to express a ratio, not a level.</p>
 <p>Additional suffixes and variants are often used to convey additional information. The most common examples include “peak” or “RMS”, which denote different ways of looking at the amplitude of the signal, and “dBA”, which indicates the use of <a href="https://en.wikipedia.org/wiki/A-weighting">A-weighting</a>. More on these in later posts.</p>
-
 </div>
-
-        <footer class="post-footer clearfix">
-    
-
-    <div class="share">
-        
-            <a class="icon-twitter" href="https://twitter.com/share?text=Decibels%2c%20explained&url=https%3a%2f%2ffactualaudio.com%2fpost%2fdecibel%2f"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="fa fa-twitter"></i>
-                <span class="hidden">Twitter</span>
-            </a>
-        
-
-        
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffactualaudio.com%2fpost%2fdecibel%2f"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                <i class="fa fa-facebook"></i>
-                <span class="hidden">Facebook</span>
-            </a>
-        
-
-        
-        
-    </div>
+<footer class="post-footer clearfix">
+<div class="share"><a class="icon-twitter" href="https://twitter.com/share?text=Decibels%2c%20explained&amp;url=https%3a%2f%2ffactualaudio.com%2fpost%2fdecibel%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i> <span class="hidden">Twitter</span></a> <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffactualaudio.com%2fpost%2fdecibel%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook"></i> <span class="hidden">Facebook</span></a></div>
 </footer>
-
-        
-    <div class="comments">
-        <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "factualaudio" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
-
-    </article>
+<div class="comments">
+<div id="disqus_thread"></div></div>
+</article>
 </div>
-
-            </div>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="site-title-wrapper">
-                    <h1 class="site-title">
-                        <a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a>
-                    </h1>
-                    <a class="button-square button-jump-top js-jump-top" href="#">
-                        <i class="fa fa-angle-up"></i>
-                    </a>
-                </div>
-
-		<p class="footer-about">
-	<a href="https://factualaudio.com/page/about/">About Factual Audio</a>
-</p>
-<p class="footer-copyright">
-	This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-</p>
-
-
-                <p class="footer-copyright">
-                    <span>&copy; 2017 <a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
-                </p>
-            </div>
-        </footer>
-
-        <script src="https://factualaudio.com/js/jquery-1.11.3.min.js"></script>
-        <script src="https://factualaudio.com/js/jquery.fitvids.js"></script>
-        
-        
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        
-        
-        <script src="https://factualaudio.com/js/scripts.js"></script>
-    </body>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a></div>
+<p class="footer-about"><a href="https://factualaudio.com/page/about/">About Factual Audio</a></p>
+<p class="footer-copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p class="footer-copyright"><span>© 2017 <a href="/page/about/" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span></p>
+<p class="footer-copyright"><span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span> <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span></p>
+</div>
+</footer>
+</body>
 </html>
-
