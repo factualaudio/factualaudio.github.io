@@ -10,14 +10,33 @@
         <meta name="generator" content="Hugo 0.26" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#f03838">
         
         <link rel="stylesheet" href="https://factualaudio.com/dist/styles.css" data-concatenate-into="https://factualaudio.com/combined.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <noscript class="defer">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </noscript>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
+	<script defer src="https://factualaudio.com/js/fonts.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
+        <script defer src="https://factualaudio.com/js/defer.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
         
         <link rel="icon" href="https://factualaudio.com/icon.png" type="image/png">
 <link rel="stylesheet" href="https://cdn.rawgit.com/lemonmade/bigfoot/2.1.4/dist/bigfoot-default.css" data-concatenate-into="https://factualaudio.com/combined.css">
 <link rel="stylesheet" href="https://factualaudio.com/styles.css" data-concatenate-into="https://factualaudio.com/combined.css">
+
+<noscript>
+	<style>
+		.inlineFootnoteDecoration {
+			display: inline;
+		}
+		.inlineFootnoteUnprocessed {
+			display: inline;
+			font-size: inherit;
+			background-color: transparent;
+		}
+	</style>
+</noscript>
 <script defer src="https://code.jquery.com/jquery-3.2.1.slim.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
 <script defer src="https://cdn.rawgit.com/lemonmade/bigfoot/2.1.4/dist/bigfoot.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
 <script defer src="https://factualaudio.com/inline_footnotes.js" data-concatenate-into="https://factualaudio.com/combined.js"></script>
@@ -77,7 +96,7 @@
         <span>by</span>
         <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
             <span itemprop="name">
-                <a href="/page/about/" itemprop="url" rel="author">Etienne Dechamps</a>
+                <a href="https://factualaudio.com/page/about/" itemprop="url" rel="author">Etienne Dechamps</a>
             </span>
         </span>
     </p>
@@ -189,9 +208,9 @@
 
 <h1 id="using-decibels-for-absolute-values">Using decibels for absolute values</h1>
 
-<p>In theory, one could stick with linear units when dealing with absolute values (e.g. 2 V), and use decibels when dealing with ratios (e.g. 2×). However, when a calculation involves both, the mental gymnastics can be challenging. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Not convinced? Try calculating 2 V × -11 dB by hand.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
+<p>In theory, one could stick with linear units when dealing with absolute values (e.g. 2 V), and use decibels when dealing with ratios (e.g. 2×). However, when a calculation involves both, the mental gymnastics can be challenging. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote-note inlineFootnoteUnprocessed">Not convinced? Try calculating 2 V × -11 dB by hand.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
 
-<p>It would make more sense to use decibels for everything, including absolute quantities. Fortunately, that’s easy: we just need to agree on a reference, and then express in decibels the ratio between that reference and the quantity we wish to convey. The resulting decibel value is called <em><a href="https://en.wikipedia.org/wiki/Level_%28logarithmic_quantity%29">level</a></em>. For example, if the reference is 1 V, then the level of 2 V is +6 dB. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">And the calculation from the previous note becomes 6 dB - 11 dB = -5 dB. Much easier!</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
+<p>It would make more sense to use decibels for everything, including absolute quantities. Fortunately, that’s easy: we just need to agree on a reference, and then express in decibels the ratio between that reference and the quantity we wish to convey. The resulting decibel value is called <em><a href="https://en.wikipedia.org/wiki/Level_%28logarithmic_quantity%29">level</a></em>. For example, if the reference is 1 V, then the level of 2 V is +6 dB. <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote-note inlineFootnoteUnprocessed">And the calculation from the previous note becomes 6 dB - 11 dB = -5 dB. Much easier!</span><strong class="inlineFootnoteDecoration"> [end note] </strong></p>
 
 <p>In practice, the reference value is indicated by a suffix affixed to the unit. Here are some references commonly used in the three audio realms:</p>
 
@@ -220,13 +239,13 @@
 <tr>
 <td>Voltage</td>
 <td>~0.77 V</td>
-<td>0 <a href="https://en.wikipedia.org/wiki/Decibel#Voltage">dBu</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">Yes, there are two different references in common use for voltages. That’s sad, but that’s the way it is. To convert from one to the other, add or subtract ~2.2 dB.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
+<td>0 <a href="https://en.wikipedia.org/wiki/Decibel#Voltage">dBu</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote-note inlineFootnoteUnprocessed">Yes, there are two different references in common use for voltages. That’s sad, but that’s the way it is. To convert from one to the other, add or subtract ~2.2 dB.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
 </tr>
 
 <tr>
 <td>Sample value</td>
 <td>Full scale</td>
-<td>0 <a href="https://en.wikipedia.org/wiki/DBFS">dBFS</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote inlineFootnote-note">In other words, 0 dBFS is the maximum level before digital clipping (truncation) occurs. Thus valid amplitudes have negative dBFS values. Or at least that’s how it’s supposed to work. The definition of dBFS can be quite fuzzy and ambiguous, as explained in that Wikipedia page. Caveat emptor.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
+<td>0 <a href="https://en.wikipedia.org/wiki/DBFS">dBFS</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote-note inlineFootnoteUnprocessed">In other words, 0 dBFS is the maximum level before digital clipping (truncation) occurs. Thus valid amplitudes have negative dBFS values. Or at least that’s how it’s supposed to work. The definition of dBFS can be quite fuzzy and ambiguous, as explained in that Wikipedia page. Caveat emptor.</span><strong class="inlineFootnoteDecoration"> [end note] </strong></td>
 </tr>
 </tbody>
 </table>
@@ -293,7 +312,7 @@
 
 
                 <p class="footer-copyright">
-                    <span>&copy; 2017 <a href="/page/about/" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                    <span>&copy; 2017 <a href="https://factualaudio.com/page/about/" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span>
                 </p>
                 <p class="footer-copyright">
                     <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>

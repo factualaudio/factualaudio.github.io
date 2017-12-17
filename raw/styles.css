@@ -14,7 +14,30 @@ ul li {
 }
 
 .figure {
+	display: block;
+	position: relative;
 	width: 100%;
+	margin: 0; padding: 0;
+}
+.figure img, .figure object {
+	display: block;
+	margin: 0; padding: 0;
+	width: 100%;
+}
+
+/*
+	If the intrinsic placeholders are in place, set them up.
+	See postprocessing/process-intrinsic-placeholders.xsl for details.
+*/
+.figure[data-intrinsic-placeholder="processed"] {
+	height: 0;
+	padding-top: 100%; /* Default to square */
+}
+.figure[data-intrinsic-placeholder="processed"] img, .figure[data-intrinsic-placeholder="processed"] object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
 }
 
 .legend {
@@ -24,12 +47,31 @@ ul li {
 	margin-bottom: 30px;
 	font-size: 0.9em;
 	line-height: 2.5ex;
+
+	/* Ensure the legend sits on top the figure, not underneath it. */
+	position: relative;
+}
+
+/*
+	Prevent excessive reflow when rendering footnotes
+	by reducing the inline footnote to the size of the
+	button it's going to be replaced with.
+*/
+.inlineFootnoteDecoration {
+	display: none;
+}
+.inlineFootnoteUnprocessed {
+	display: inline-block;
+	width: 36px;
+	height: 26px;
+	font-size: 0;
+	overflow: hidden;
+	background-color: rgb(200, 200, 200);
 }
 
 .inlineFootnote-note .bigfoot-footnote__button {
 	background-color: #f03838;
 }
-
 .inlineFootnote-ref .bigfoot-footnote__button {
 	background-color: rgb(200, 200, 200);
 }
