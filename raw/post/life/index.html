@@ -127,7 +127,7 @@ For the sake of this discussion, I am going to assume the most common and straig
 <p><a href="https://en.wikipedia.org/wiki/Data_compression">Digital compression</a> <strong class="inlineFootnoteDecoration"> [note] </strong><span class="inlineFootnote-note inlineFootnoteUnprocessed">Not to be confused with <em><a href="https://en.wikipedia.org/wiki/Dynamic_range_compression">dynamic range compression</a></em>, which is completely unrelated.</span><strong class="inlineFootnoteDecoration"> [end note] </strong> is a complicated subject, which I won’t dig into further in this post. In any case, the data first goes through a <em>decoder</em> which converts the compressed signal into uncompressed form, which looks like this:</p>
 
 <span class="figure" data-intrinsic-placeholder="unprocessed">
-	<img src="https://factualaudio.com/plots/1khz-sine-wave-digital.png" alt="Digitally sampled 1kHz sine waveform" data-svg-alternative="https://factualaudio.com/plots/1khz-sine-wave-digital.svg">
+	<img src="https://factualaudio.com/plots/sine-wave-1khz-digital.png" alt="Digitally sampled 1kHz sine waveform" data-svg-alternative="https://factualaudio.com/plots/sine-wave-1khz-digital.svg">
 </span>
 
 
@@ -144,7 +144,7 @@ For the sake of this discussion, I am going to assume the most common and straig
 <p>Loudspeakers and headphones cannot receive a digital signal; it has to be converted to an <em>analog</em> signal first. This conversion is done in an electronic circuit appropriately named the <em><a href="https://en.wikipedia.org/wiki/Digital-to-analog_converter">digital-to-analog converter</a></em>, or DAC. This is where computer engineering ends and electrical engineering begins. The main task of the DAC is to take each sample value and convert it to some electrical <em><a href="https://en.wikipedia.org/wiki/Voltage">voltage</a></em> on its output pins. The resulting signal looks like the following:</p>
 
 <span class="figure" data-intrinsic-placeholder="unprocessed">
-	<img src="https://factualaudio.com/plots/1khz-sine-wave-analog.png" alt="1kHz sine wave with voltage scale" data-svg-alternative="https://factualaudio.com/plots/1khz-sine-wave-analog.svg">
+	<img src="https://factualaudio.com/plots/sine-wave-1khz-analog.png" alt="1kHz sine wave with voltage scale" data-svg-alternative="https://factualaudio.com/plots/sine-wave-1khz-analog.svg">
 </span>
 
 
@@ -168,7 +168,7 @@ For the sake of this discussion, I am going to assume the most common and straig
 <p>Finally, in order to reach your ears, the analog signal must be converted to an <em>acoustic</em> signal, that is, actual <a href="https://en.wikipedia.org/wiki/Sound">sound waves</a>. This is accomplished using a device called an <em>electroacoustic <a href="https://en.wikipedia.org/wiki/Transducer">transducer</a></em>, or <em>driver</em>. The output of a driver when excited with our example signal, as measured at some point in front of it, might look like the following:</p>
 
 <span class="figure" data-intrinsic-placeholder="unprocessed">
-	<img src="https://factualaudio.com/plots/1khz-sine-wave-acoustic.png" alt="1kHz sine wave with pressure scale" data-svg-alternative="https://factualaudio.com/plots/1khz-sine-wave-acoustic.svg">
+	<img src="https://factualaudio.com/plots/sine-wave-1khz-acoustic.png" alt="1kHz sine wave with pressure scale" data-svg-alternative="https://factualaudio.com/plots/sine-wave-1khz-acoustic.svg">
 </span>
 
 

@@ -37,14 +37,15 @@
 
 &lt;p&gt;Depending on amplitude and frequency content, noise might or might not constitute a problem in practice. For example, low-level broadband &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Colors_of_noise&#34;&gt;colored noise&lt;/a&gt;&lt;/em&gt; (such as &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/White_noise&#34;&gt;white noise&lt;/a&gt;&lt;/em&gt;) will often go unnoticed because its spectrum is roughly similar to typical ambient noise that we are all continuously subjected to in our daily lives. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [ref] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-ref inlineFootnoteUnprocessed&#34;&gt;See Albert Donald G., Decato Stephen N., &amp;ldquo;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0003682X16306120&#34;&gt;Acoustic and seismic ambient noise measurements in urban and rural areas&lt;/a&gt;&amp;rdquo;, Applied Acoustics, 119, 135–143, (2017) for examples of ambient noise spectra.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end ref] &lt;/strong&gt; The same cannot be said of narrowband noise concentrated in specific frequencies. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;Unfortunately that distinction is lost when noise measurements are condensed into a single number (such as signal-to-noise ratio), discarding spectral distribution in the process.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt; Furthermore, narrowband noise is more likely to affect the perception of minute detail in the original signal, due to an auditory phenomenon known as &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Auditory_masking&#34;&gt;masking&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
+&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
 	&lt;img src=&#34;https://factualaudio.com/plots/noisy-sine-wave.png&#34; alt=&#34;Noisy sine waveform&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/noisy-sine-wave.svg&#34;&gt;
 &lt;/span&gt;
+
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
 	&lt;img src=&#34;https://factualaudio.com/plots/noisy-sine-spectrum.png&#34; alt=&#34;Noisy sine spectrum&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/noisy-sine-spectrum.svg&#34;&gt;
 &lt;/span&gt;
-&lt;/p&gt;
+
 
 &lt;p class=&#34;legend&#34;&gt;&lt;em&gt;Waveform and spectrum of a sine wave affected by white noise. The noise spectrum, circled in red, is often called the “noise floor”. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;From that spectrum plot you might be tempted to conclude that the signal-to-noise ratio is about 50 dB. That would be wrong — it’s actually much worse, around 17 dB. You can’t read it directly from the graph because the noise is spread across multiple frequencies. This is a very common mistake when reading spectrum plots, which I might describe in more detail in a future post.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
@@ -356,7 +357,7 @@
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Data_compression&#34;&gt;Digital compression&lt;/a&gt; &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;Not to be confused with &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_range_compression&#34;&gt;dynamic range compression&lt;/a&gt;&lt;/em&gt;, which is completely unrelated.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt; is a complicated subject, which I won’t dig into further in this post. In any case, the data first goes through a &lt;em&gt;decoder&lt;/em&gt; which converts the compressed signal into uncompressed form, which looks like this:&lt;/p&gt;
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
-	&lt;img src=&#34;https://factualaudio.com/plots/1khz-sine-wave-digital.png&#34; alt=&#34;Digitally sampled 1kHz sine waveform&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/1khz-sine-wave-digital.svg&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/sine-wave-1khz-digital.png&#34; alt=&#34;Digitally sampled 1kHz sine waveform&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/sine-wave-1khz-digital.svg&#34;&gt;
 &lt;/span&gt;
 
 
@@ -373,7 +374,7 @@
 &lt;p&gt;Loudspeakers and headphones cannot receive a digital signal; it has to be converted to an &lt;em&gt;analog&lt;/em&gt; signal first. This conversion is done in an electronic circuit appropriately named the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Digital-to-analog_converter&#34;&gt;digital-to-analog converter&lt;/a&gt;&lt;/em&gt;, or DAC. This is where computer engineering ends and electrical engineering begins. The main task of the DAC is to take each sample value and convert it to some electrical &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Voltage&#34;&gt;voltage&lt;/a&gt;&lt;/em&gt; on its output pins. The resulting signal looks like the following:&lt;/p&gt;
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
-	&lt;img src=&#34;https://factualaudio.com/plots/1khz-sine-wave-analog.png&#34; alt=&#34;1kHz sine wave with voltage scale&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/1khz-sine-wave-analog.svg&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/sine-wave-1khz-analog.png&#34; alt=&#34;1kHz sine wave with voltage scale&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/sine-wave-1khz-analog.svg&#34;&gt;
 &lt;/span&gt;
 
 
@@ -397,7 +398,7 @@
 &lt;p&gt;Finally, in order to reach your ears, the analog signal must be converted to an &lt;em&gt;acoustic&lt;/em&gt; signal, that is, actual &lt;a href=&#34;https://en.wikipedia.org/wiki/Sound&#34;&gt;sound waves&lt;/a&gt;. This is accomplished using a device called an &lt;em&gt;electroacoustic &lt;a href=&#34;https://en.wikipedia.org/wiki/Transducer&#34;&gt;transducer&lt;/a&gt;&lt;/em&gt;, or &lt;em&gt;driver&lt;/em&gt;. The output of a driver when excited with our example signal, as measured at some point in front of it, might look like the following:&lt;/p&gt;
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
-	&lt;img src=&#34;https://factualaudio.com/plots/1khz-sine-wave-acoustic.png&#34; alt=&#34;1kHz sine wave with pressure scale&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/1khz-sine-wave-acoustic.svg&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/sine-wave-1khz-acoustic.png&#34; alt=&#34;1kHz sine wave with pressure scale&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/sine-wave-1khz-acoustic.svg&#34;&gt;
 &lt;/span&gt;
 
 
@@ -432,7 +433,7 @@
 &lt;p&gt;Out of the infinity of shapes that an audio signal can take, probably the simplest is a &lt;em&gt;pure tone&lt;/em&gt;, also called a &lt;em&gt;sine wave&lt;/em&gt; from the name of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sine&#34;&gt;mathematical function&lt;/a&gt; that it describes. Here is an example of a sine wave:&lt;/p&gt;
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
-	&lt;img src=&#34;https://factualaudio.com/plots/1khz-sine-wave.png&#34; alt=&#34;1 kHz pure tone waveform&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/1khz-sine-wave.svg&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/sine-wave-1khz.png&#34; alt=&#34;1 kHz pure tone waveform&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/sine-wave-1khz.svg&#34;&gt;
 &lt;/span&gt;
 
 
@@ -459,7 +460,7 @@
 &lt;p&gt;In order to make sense of such complex signals, we need a better way to look at the data. Fortunately, the above signal can be decomposed into a number of pure tones of various frequencies and amplitudes, thanks to the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Superposition_principle&#34;&gt;superposition principle&lt;/a&gt;&lt;/em&gt;. The mathematical tool used to do the decomposition is called the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Fourier_transform&#34;&gt;Fourier transform&lt;/a&gt;&lt;/em&gt;. For example, if we were to apply the Fourier transform to our first pure tone example, the result could be represented as follows:&lt;/p&gt;
 
 &lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
-	&lt;img src=&#34;https://factualaudio.com/plots/1khz-sine-spectrum.png&#34; alt=&#34;1 kHz pure tone spectrum&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/1khz-sine-spectrum.svg&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/sine-spectrum-1khz.png&#34; alt=&#34;1 kHz pure tone spectrum&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/sine-spectrum-1khz.svg&#34;&gt;
 &lt;/span&gt;
 
 
