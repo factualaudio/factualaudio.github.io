@@ -36,6 +36,11 @@
     <height><![CDATA[800]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/peak-phase-response.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[800]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[800]]></height>
@@ -44,6 +49,11 @@
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-wave.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[500]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[800]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.png]]></url>
@@ -62,6 +72,11 @@
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[500]]></height>
   </image>
@@ -121,6 +136,11 @@
     <height><![CDATA[288]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/peak-phase-response.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[288]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[288]]></height>
@@ -129,6 +149,11 @@
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-wave.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[288]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.svg]]></url>
@@ -147,6 +172,11 @@
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
   </image>

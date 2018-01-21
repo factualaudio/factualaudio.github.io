@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.0">
+<meta charset="utf-8">
+<title>Reasoning about phase · Factual Audio</title>
+<meta name="description" content="So far, when discussing the various frequency components of a signal — i.e. the sine waves that together make up the signal — I’ve mostly focused on the amplitude of these sine waves. In order to keep things simple and short, I’ve been purposefully evading the subject of phase, an often-overlooked property of waveforms. Now it’s time to face the music (pun intended) and fill this gap, as this concept will be useful in future posts.">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="generator" content="Hugo 0.26">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f03838">
+<link rel="stylesheet" href="https://factualaudio.com/combined.fingerprint-8d5b5da.css"><noscript class="defer">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></noscript><script defer="defer" src="https://factualaudio.com/combined.fingerprint-bd79f9c.js"></script>
+<link rel="icon" href="https://factualaudio.com/icon.fingerprint-53b21f7.png" type="image/png"><noscript>
+<style>
+
+
+
+                .inlineFootnoteDecoration {
+                        display: inline;
+                }
+                .inlineFootnoteUnprocessed {
+                        display: inline;
+                        font-size: inherit;
+                        background-color: transparent;
+                }
+
+</style></noscript>
+</head>
+<body>
+<div id="wrapper">
+<header class="site-header">
+<div class="container">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square" href="https://factualaudio.com/index.xml"><i class="fa fa-rss"></i></a> <a class="button-square button-social hint--top" data-hint="Facebook" title="Facebook" href="https://www.facebook.com/FactualAudio/"><i class="fa fa-facebook"></i></a> <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/FactualAudio"><i class="fa fa-twitter"></i></a></div>
+<ul class="site-nav"></ul></div>
+</header>
+<div id="container">
+<div class="container">
+<article class="post-container" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<header class="post-header">
+<h1 class="post-title" itemprop="name headline">Reasoning about phase</h1>
+<p class="post-date"><span>Published <time datetime="2018-01-21" itemprop="datePublished">Sun, Jan 21, 2018</time></span> <span>by</span> <span itemscope="itemscope" itemprop="author" itemtype="https://schema.org/Person"><span itemprop="name"><a href="https://factualaudio.com/page/about/" itemprop="url" rel="author">Etienne Dechamps</a></span></span></p>
+</header>
+<div class="post-content clearfix" itemprop="articleBody">
+<p>So far, when discussing the various frequency components of a signal — i.e. the sine waves that <a href="https://factualaudio.com/post/anatomy/#the-frequency-domain">together make up</a> the signal — I’ve mostly focused on the <em><a href="https://factualaudio.com/post/amplitude/">amplitude</a></em> of these sine waves. In order to keep things simple and short, I’ve been purposefully evading the subject of <em><a href="https://en.wikipedia.org/wiki/Phase_(waves)">phase</a></em>, an often-overlooked property of waveforms. Now it’s time to face the music (pun intended) and fill this gap, as this concept will be useful in future posts.</p>
+<span style="padding-top: calc((500/1280)*100%);" data-intrinsic-placeholder="processed" class="figure"><img src="https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-9e1972c.png" alt="Four sine waves with different phases" data-svg-alternative="https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-aebcfbf.svg"></span>
+<p>The above plot shows four different sine waves. Contrary to what I’ve discussed previously on this blog, these waves don’t differ in frequency nor amplitude. Instead, their cycles are offset from each other in time. In other words, they have different phase.</p>
+<p>Phase indicates what part of the wave cycle is occurring at a given point in time. When not specified, that moment is conventionally defined as the origin of time (i.e. t=0). For example, in the above plot, the phase of the solid blue sine wave is zero, because its cycle starts at the origin. In contrast, at the same instant, the other sine waves are at a quarter, a half, and three quarters of their cycles, respectively.</p>
+<p>When a sine wave reaches the end of its cycle, it’s right back when it started and a new cycle begins again. In that way, progressing through the cycles of a sine wave is a bit like running around in circles. Hence it is no surprise that the terminology used when reasoning about phase is that of turns and angles. It seems natural in that context to define a <a href="https://en.wikipedia.org/wiki/Turn_(geometry)">full cycle</a> as 360 <a href="https://en.wikipedia.org/wiki/Degree_(angle)">degrees</a> — or, alternatively, 2π <a href="https://en.wikipedia.org/wiki/Radian">radians</a> — and from there, the other sine waves shown above could be defined as fractions of a full cycle: 90° (½π rad), 180° (π rad) and 270° (³⁄₂π rad). <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">From a mathematical perspective, the analogy goes <a href="https://commons.wikimedia.org/wiki/File:ComplexSinInATimeAxe.gif">much farther</a> than this. These concepts are all variations on the same common theme.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
+<h1 id="phase-in-the-frequency-domain">Phase in the frequency domain</h1>
+<p>We’ve <a href="https://factualaudio.com/post/anatomy/#the-frequency-domain">seen previously</a> that the Fourier transform can be used to decompose any signal into a number of constituent sine waves — one per discrete frequency. In addition to the amplitude of each sine wave, the output of the Fourier transform (i.e. the spectrum) also contains their phase. For example, here is the phase information that the Fourier transform produces for each of the four above signals: <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">For the sake of consistency and to avoid confusion, I cheated a bit here — the real components of the Fourier transform are cosines, not sines, so strictly speaking the output should be offset by 90°. This is purely arbitrary and doesn’t matter one bit, though.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
+<span style="padding-top: calc((800/1280)*100%);" data-intrinsic-placeholder="processed" class="figure"><img src="https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-89bac21.png" alt="Four sine waves with different phases" data-svg-alternative="https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-74af671.svg"></span>
+<p>We’ve also <a href="https://factualaudio.com/post/distortion/#frequency-response-distortion">seen previously</a> that a linear system can alter the amplitude of the frequency components that flow through it. In the same way, a linear system can also alter their phase (which is <em>not</em> the same thing as delaying them — see below), and the extent of these alterations can be shown on a plot, called the <a href="https://en.wikipedia.org/wiki/Phase_response">phase response</a>. Here is the phase response of a system that is similar to the example from that previous post:</p>
+<span style="padding-top: calc((800/1280)*100%);" data-intrinsic-placeholder="processed" class="figure"><img src="https://factualaudio.com/plots/peak-phase-response.fingerprint-bb050bb.png" alt="Four sine waves with different phases" data-svg-alternative="https://factualaudio.com/plots/peak-phase-response.fingerprint-e0eef70.svg"></span>
+<h1 id="phase-and-delay">Phase and delay</h1>
+<p>The sine waves I’m using as examples have a frequency of 1&#160;kHz, which means that a cycle completes in 1&#160;millisecond. From that perspective, it is tempting to think about phase as a time offset; for example, one might say that a 1&#160;kHz wave with a phase of 90° is offset by one quarter of a millisecond relative to the reference. This quantity is known as the <a href="https://en.wikipedia.org/wiki/Group_delay_and_phase_delay">phase delay</a>.</p>
+<p>This is where things get tricky and misleading, though. One subtlety that is often overlooked when dealing with such concepts is that, mathematically speaking, phase is a property of a <a href="https://en.wikipedia.org/wiki/Periodic_function">periodic signal</a>, which implies a <a href="https://en.wikipedia.org/wiki/Continuous_wave">continuous wave</a> of infinite duration with no beginning and no end. Real-world signals of course do not meet these criteria. For most intents and purposes this does not really matter, but in some cases it does, and this is one of those. Specifically, it makes it very easy to misinterpret the meaning of phase delay.</p>
+<p>Imagine that, in the above plot, the sine waves went on forever on both sides of the figure. What does “delay” even mean in that context? I could say that the 90° wave is delayed by 0.25&#160;ms relative to the 0° wave, but I could just as well flip things around and say that the 0° wave is delayed by 0.75&#160;ms relative to the 90° wave. Since both signals extend infinitely to the left, it makes no sense to imply that one <em>started</em> before the other. I could even go one step further and say that the 90° wave is delayed by, say, 10.25&#160;ms (10&#160;full cycles, plus a quarter cycle) and it would still mean the same thing. For this reason, the word “delay” needs to be handled very carefully in this context. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">For an illustration of what can happen when people get confused about these concepts, see this <a href="https://groups.google.com/d/topic/comp.soft-sys.matlab/lBSRLMUV7nE/discussion">epic trainwreck of a debate</a> where 46&#160;participants spend 456&#160;posts fighting to the death over the deep philosophical meaning of the word “delay”. The math is easy; it’s interpreting the results that’s hard.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> Following the same logic, in terms of the phase itself, 90° is equivalent to -270°, 450°, -630°, etc. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">In fact, when using <a href="https://en.wikipedia.org/wiki/Complex_number#Signal_analysis">complex numbers</a> to do signal analysis, these are not just equivalent: they are the exact same number, landing in the same spot on the <a href="https://en.wikipedia.org/wiki/Complex_plane">complex plane</a>.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">You might come across phase response plots where the range of values exceed 360°. This is called <em>unwrapped phase</em> and is meant mostly as a visual aid, making the graph more readable by avoiding sudden jumps at the boundaries of the range, and making some calculations easier. The underlying data is the same.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
+<p>Then again, one might still be tempted to argue that this is a mostly theoretical distinction: after all, any real-world device that changes the phase of the signal that passes through it <em>has</em> to apply some kind of delay, right?</p>
+<p>Well, not necessarily. As a counter-example, consider the case of a very basic device that reverts the <a href="https://en.wikipedia.org/wiki/Electrical_polarity">polarity</a> of the signal in the <a href="https://factualaudio.com/post/life/#the-analog-realm">analog realm</a>. In other words, it changes the sign of the voltage, which could be as simple as swapping two wires. The opposite of a sine wave is that same sine wave shifted by 180°, so in effect, this device shifts the phase of every frequency component of the input signal by 180°. One can even say that it has a phase delay of 0.5&#160;ms at 1&#160;kHz (and 1&#160;ms at 500&#160;Hz, and 0.25&#160;ms at 2&#160;kHz, and so on). Yet it would be impossible to say that this device <em>delays</em> the signal for any reasonable definition of “delay” (i.e. in terms of information or energy propagation). It physically can’t, since there is no memory (buffer) for it to hold the signal in, and energy is coming out as soon as it gets in. This device exhibits phase shift and thus phase delay, yet <em>there is no actual delay</em>.</p>
+<p>For these reasons, in general, it is not possible to know the true delay of a device by making a single phase shift measurement at a single frequency. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">A pure delay produces a phase shift at every frequency equal to frequency times delay — which, incidentally, is very effective at making a mess in phase response plots. But delay cannot be directly recovered from the phase shift at a single frequency, because, as explained above, there is loss of information — the phase shift is constrained to a 360° range, making its interpretation ambiguous.</span> <strong class="inlineFootnoteDecoration">[end note]</strong> It is, however, often possible to get more information about delay if a number of phase shift measurements are taken at various frequencies, such as by looking at a phase response plot like the one from the previous section. More specifically, this can be used to compute the <a href="https://en.wikipedia.org/wiki/Group_delay_and_phase_delay">group delay</a> of the device, albeit with a number of caveats related to measurement accuracy. Some devices, especially those that exhibit amplitude frequency response distortion like the above example, have a group delay that itself varies with frequency, which makes interpretation even trickier. <strong class="inlineFootnoteDecoration">[note]</strong> <span class="inlineFootnote-note inlineFootnoteUnprocessed">If you’re not convinced how tricky this is, consider that the example I’ve used above (which is quite mundane, really) has <em>negative</em> group delay in the low frequencies. Let that sink in for a moment. That doesn’t seem physically possible, <a href="https://www.dsprelated.com/showarticle/54.php">but it is</a>.</span> <strong class="inlineFootnoteDecoration">[end note]</strong></p>
+</div>
+<footer class="post-footer clearfix">
+<div class="share"><a class="icon-twitter" href="https://twitter.com/share?text=Reasoning%20about%20phase&amp;url=https%3a%2f%2ffactualaudio.com%2fpost%2fphase%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i> <span class="hidden">Twitter</span></a> <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffactualaudio.com%2fpost%2fphase%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook"></i> <span class="hidden">Facebook</span></a></div>
+</footer>
+<div class="comments">
+<div id="disqus_thread"></div></div>
+</article>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="site-title-wrapper">
+<h1 class="site-title"><a title="Factual Audio" href="https://factualaudio.com/">Factual Audio</a></h1>
+<a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a></div>
+<p class="footer-about"><a href="https://factualaudio.com/page/about/">About Factual Audio</a></p>
+<p class="footer-copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p class="footer-copyright"><span>© 2018 <a href="https://factualaudio.com/page/about/" rel="author">Etienne Dechamps</a> / Powered by <a href="https://gohugo.io/">Hugo</a></span></p>
+<p class="footer-copyright"><span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span> <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span></p>
+</div>
+</footer>
+</body>
+</html>

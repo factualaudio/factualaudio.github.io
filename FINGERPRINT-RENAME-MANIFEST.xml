@@ -33,12 +33,20 @@
     <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-9d34e77.svg]]></to>
   </rename>
   <rename>
+    <from><![CDATA[https://factualaudio.com/plots/peak-phase-response.svg]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-e0eef70.svg]]></to>
+  </rename>
+  <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.svg]]></from>
     <to><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-da791dd.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-wave.svg]]></from>
     <to><![CDATA[https://factualaudio.com/plots/piano-c5-wave.fingerprint-ab40946.svg]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.svg]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-74af671.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.svg]]></from>
@@ -55,6 +63,10 @@
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.svg]]></from>
     <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.fingerprint-a06ebe2.svg]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.svg]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-aebcfbf.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.svg]]></from>
@@ -105,12 +117,20 @@
     <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-000fac9.png]]></to>
   </rename>
   <rename>
+    <from><![CDATA[https://factualaudio.com/plots/peak-phase-response.png]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-bb050bb.png]]></to>
+  </rename>
+  <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.png]]></from>
     <to><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-32fe3c5.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-wave.png]]></from>
     <to><![CDATA[https://factualaudio.com/plots/piano-c5-wave.fingerprint-7700c23.png]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.png]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-89bac21.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.png]]></from>
@@ -127,6 +147,10 @@
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.png]]></from>
     <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.fingerprint-7b40d5a.png]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.png]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-9e1972c.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.png]]></from>
