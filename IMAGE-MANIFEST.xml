@@ -21,6 +21,11 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/interference.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[800]]></height>
@@ -96,6 +101,21 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-constructive-interference.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-destructive-interference.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-sum.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[500]]></height>
@@ -117,6 +137,11 @@
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/interference.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
   </image>
@@ -192,6 +217,21 @@
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-constructive-interference.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-destructive-interference.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/sine-wave-sum.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
   </image>
