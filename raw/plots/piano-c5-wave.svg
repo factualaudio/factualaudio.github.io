@@ -45,7 +45,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 24.801563, 152.795312)" x="24.801563" y="152.795312">0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 24.801563, 152.795312)" x="24.801563" y="152.795312">0</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -55,7 +55,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_2">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 110.620211, 152.795312)" x="110.620211" y="152.795312">20</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 110.620211, 152.795312)" x="110.620211" y="152.795312">20</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -65,7 +65,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_3">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 196.438859, 152.795312)" x="196.438859" y="152.795312">40</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 196.438859, 152.795312)" x="196.438859" y="152.795312">40</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -75,7 +75,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_4">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 282.257507, 152.795312)" x="282.257507" y="152.795312">60</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 282.257507, 152.795312)" x="282.257507" y="152.795312">60</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -85,16 +85,16 @@ L 0 3.5
       </g>
      </g>
      <g id="text_5">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 368.076156, 152.795312)" x="368.076156" y="152.795312">80</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 368.076156, 152.795312)" x="368.076156" y="152.795312">80</text>
      </g>
     </g>
     <g id="text_6">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 235.650781, 166.796875)" x="235.650781" y="166.796875">Time (milliseconds)</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 235.650781, 166.796875)" x="235.650781" y="166.796875">Time (milliseconds)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="text_7">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-90, 18.398438, 76.248437)" x="18.398438" y="76.248437">Amplitude</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 18.398438, 76.248437)" x="18.398438" y="76.248437">Amplitude</text>
     </g>
    </g>
    <g id="line2d_7">

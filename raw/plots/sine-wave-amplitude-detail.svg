@@ -46,7 +46,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_1">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 162.617401)" x="30.6125" y="162.617401">−1.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 162.617401)" x="30.6125" y="162.617401">−1.0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -56,7 +56,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_2">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 128.20831)" x="30.6125" y="128.20831">−0.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 128.20831)" x="30.6125" y="128.20831">−0.5</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -66,7 +66,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_3">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 93.799219)" x="30.6125" y="93.799219">0.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 93.799219)" x="30.6125" y="93.799219">0.0</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -76,7 +76,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_4">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 59.390128)" x="30.6125" y="59.390128">0.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 59.390128)" x="30.6125" y="59.390128">0.5</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -86,7 +86,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_5">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 24.981037)" x="30.6125" y="24.981037">1.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 24.981037)" x="30.6125" y="24.981037">1.0</text>
      </g>
     </g>
    </g>
@@ -278,17 +278,17 @@ L 446.5 94.321129
    <g id="line2d_8">
     <path clip-path="url(#pcd2061bac1)" d="M 37.6125 158.818182 
 L 446.5 158.818182 
-" style="fill:none;stroke:#1f77b4;stroke-dasharray:2.2,2.2;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_9">
     <path clip-path="url(#pcd2061bac1)" d="M 37.6125 21.181818 
 L 446.5 21.181818 
-" style="fill:none;stroke:#1f77b4;stroke-dasharray:2.2,2.2;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_10">
     <path clip-path="url(#pcd2061bac1)" d="M 37.6125 41.338197 
 L 446.5 41.338197 
-" style="fill:none;stroke:#1f77b4;stroke-dasharray:2.2,2.2;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="patch_3">
     <path d="M 37.6125 165.7 
@@ -311,7 +311,7 @@ L 446.5 14.3
 " style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
    </g>
    <g id="text_6">
-    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 210.389674, 85)" x="210.389674" y="85">Peak-to-peak</text>
+    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 210.389674, 85)" x="210.389674" y="85">Peak-to-peak</text>
    </g>
    <g id="patch_7">
     <path d="M 215.389674 24.303409 
@@ -327,7 +327,7 @@ L 213.389674 151.700922
 " style="fill:none;stroke:#000000;stroke-linecap:round;"/>
    </g>
    <g id="text_7">
-    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 278.76551, 85)" x="278.76551" y="85">Peak</text>
+    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 278.76551, 85)" x="278.76551" y="85">Peak</text>
    </g>
    <g id="patch_8">
     <path d="M 283.76551 24.303409 
@@ -343,7 +343,7 @@ L 281.76551 82.879648
 " style="fill:none;stroke:#000000;stroke-linecap:round;"/>
    </g>
    <g id="text_8">
-    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 347.141346, 85)" x="347.141346" y="85">RMS</text>
+    <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 347.141346, 85)" x="347.141346" y="85">RMS</text>
    </g>
    <g id="patch_9">
     <path d="M 352.141346 44.455095 

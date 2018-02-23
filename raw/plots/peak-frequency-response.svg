@@ -40,7 +40,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 57.33125, 260.795313)" x="57.33125" y="260.795313">20</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 57.33125, 260.795313)" x="57.33125" y="260.795313">20</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -50,7 +50,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_2">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 145.489024, 260.795313)" x="145.489024" y="260.795313">100</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 145.489024, 260.795313)" x="145.489024" y="260.795313">100</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -60,7 +60,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_3">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 271.614284, 260.795313)" x="271.614284" y="260.795313">1000</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 271.614284, 260.795313)" x="271.614284" y="260.795313">1000</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -70,7 +70,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_4">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 397.739545, 260.795313)" x="397.739545" y="260.795313">10000</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 397.739545, 260.795313)" x="397.739545" y="260.795313">10000</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -80,7 +80,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_5">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 435.707031, 260.795313)" x="435.707031" y="260.795313">20000</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 435.707031, 260.795313)" x="435.707031" y="260.795313">20000</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -264,7 +264,7 @@ L 0 2
      </g>
     </g>
     <g id="text_6">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 246.519141, 274.796875)" x="246.519141" y="274.796875">Frequency (Hz)</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 246.519141, 274.796875)" x="246.519141" y="274.796875">Frequency (Hz)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -280,7 +280,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_7">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 249.996094)" x="50.33125" y="249.996094">−10.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 249.996094)" x="50.33125" y="249.996094">−10.0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -290,7 +290,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_8">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 221.046387)" x="50.33125" y="221.046387">−7.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 221.046387)" x="50.33125" y="221.046387">−7.5</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -300,7 +300,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_9">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 192.09668)" x="50.33125" y="192.09668">−5.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 192.09668)" x="50.33125" y="192.09668">−5.0</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -310,7 +310,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_10">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 163.146973)" x="50.33125" y="163.146973">−2.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 163.146973)" x="50.33125" y="163.146973">−2.5</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -320,7 +320,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_11">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 134.197266)" x="50.33125" y="134.197266">0.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 134.197266)" x="50.33125" y="134.197266">0.0</text>
      </g>
     </g>
     <g id="ytick_6">
@@ -330,7 +330,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_12">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 105.247559)" x="50.33125" y="105.247559">2.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 105.247559)" x="50.33125" y="105.247559">2.5</text>
      </g>
     </g>
     <g id="ytick_7">
@@ -340,7 +340,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_13">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 76.297852)" x="50.33125" y="76.297852">5.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 76.297852)" x="50.33125" y="76.297852">5.0</text>
      </g>
     </g>
     <g id="ytick_8">
@@ -350,7 +350,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_14">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 47.348145)" x="50.33125" y="47.348145">7.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 47.348145)" x="50.33125" y="47.348145">7.5</text>
      </g>
     </g>
     <g id="ytick_9">
@@ -360,15 +360,15 @@ L -3.5 0
       </g>
      </g>
      <g id="text_15">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 50.33125, 18.398438)" x="50.33125" y="18.398438">10.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 50.33125, 18.398438)" x="50.33125" y="18.398438">10.0</text>
      </g>
     </g>
     <g id="text_16">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-90, 18.398437, 130.398047)" x="18.398437" y="130.398047">Gain (dB)</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 18.398437, 130.398047)" x="18.398437" y="130.398047">Gain (dB)</text>
     </g>
    </g>
    <g id="line2d_40">
-    <path clip-path="url(#p76093a1b9e)" d="M -1 130.390495 
+    <path clip-path="url(#p76093a1b9e)" d="M -1 130.390487 
 L 117.563095 130.329603 
 L 155.530582 130.1192 
 L 177.740138 129.751016 

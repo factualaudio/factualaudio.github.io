@@ -14,7 +14,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-645748f.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-2a7fd86.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.svg]]></from>
@@ -22,11 +22,11 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/interference.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-2c8f857.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-2ddb3b0.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.fingerprint-c7bcf3a.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.fingerprint-6db4a30.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/noisy-sine-wave.svg]]></from>
@@ -38,7 +38,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/peak-phase-response.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-e0eef70.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-87f3197.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.svg]]></from>
@@ -70,7 +70,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-aebcfbf.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-eb3f893.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.svg]]></from>
@@ -78,7 +78,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-f5a54c2.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-e2f78de.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.svg]]></from>
@@ -94,11 +94,11 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-sum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-5a14439.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-0a420ca.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-d5a66b9.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-130fed1.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.svg]]></from>
@@ -114,7 +114,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-0ed12a4.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-1f3315a.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.png]]></from>
@@ -122,7 +122,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/interference.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-75f6bd2.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-352fdc7.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.png]]></from>
@@ -134,7 +134,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/peak-frequency-response.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-000fac9.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-039fc50.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/peak-phase-response.png]]></from>
@@ -154,7 +154,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.fingerprint-f6060ac.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.fingerprint-5516420.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-acoustic.png]]></from>
@@ -170,7 +170,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-9e1972c.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-7b9b4cf.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.png]]></from>
@@ -178,7 +178,7 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-8f3165b.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-c62c872.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.png]]></from>
@@ -194,11 +194,11 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-sum.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-17ae1af.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-cd2f1ec.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.png]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-fd0b016.png]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-f5fa04a.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.png]]></from>

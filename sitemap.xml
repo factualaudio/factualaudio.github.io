@@ -43,13 +43,12 @@
   </url>
   
   <url>
-    <loc>https://factualaudio.com/categories/</loc>
-    <priority>0</priority>
+    <loc>https://factualaudio.com/</loc>
+    <lastmod>2018-01-30T22:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://factualaudio.com/</loc>
-    <lastmod>2018-01-30T22:48:00+00:00</lastmod>
+    <loc>https://factualaudio.com/categories/</loc>
     <priority>0</priority>
   </url>
   

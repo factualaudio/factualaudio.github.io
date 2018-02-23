@@ -46,7 +46,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_1">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 162.617401)" x="30.6125" y="162.617401">−1.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 162.617401)" x="30.6125" y="162.617401">−1.0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -56,7 +56,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_2">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 128.20831)" x="30.6125" y="128.20831">−0.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 128.20831)" x="30.6125" y="128.20831">−0.5</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -66,7 +66,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_3">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 93.799219)" x="30.6125" y="93.799219">0.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 93.799219)" x="30.6125" y="93.799219">0.0</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -76,7 +76,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_4">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 59.390128)" x="30.6125" y="59.390128">0.5</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 59.390128)" x="30.6125" y="59.390128">0.5</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -86,7 +86,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_5">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:end;" transform="rotate(-0, 30.6125, 24.981037)" x="30.6125" y="24.981037">1.0</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 30.6125, 24.981037)" x="30.6125" y="24.981037">1.0</text>
      </g>
     </g>
    </g>

@@ -45,7 +45,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 24.801563, 152.795312)" x="24.801563" y="152.795312">0.00</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 24.801563, 152.795312)" x="24.801563" y="152.795312">0.00</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -55,7 +55,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_2">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 77.778753, 152.795312)" x="77.778753" y="152.795312">0.25</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 77.778753, 152.795312)" x="77.778753" y="152.795312">0.25</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -65,7 +65,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_3">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 130.755944, 152.795312)" x="130.755944" y="152.795312">0.50</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 130.755944, 152.795312)" x="130.755944" y="152.795312">0.50</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -75,7 +75,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_4">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 183.733134, 152.795312)" x="183.733134" y="152.795312">0.75</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 183.733134, 152.795312)" x="183.733134" y="152.795312">0.75</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -85,7 +85,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_5">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 236.710325, 152.795312)" x="236.710325" y="152.795312">1.00</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 236.710325, 152.795312)" x="236.710325" y="152.795312">1.00</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -95,7 +95,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_6">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 289.687516, 152.795312)" x="289.687516" y="152.795312">1.25</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 289.687516, 152.795312)" x="289.687516" y="152.795312">1.25</text>
      </g>
     </g>
     <g id="xtick_7">
@@ -105,7 +105,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_7">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 342.664706, 152.795312)" x="342.664706" y="152.795312">1.50</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 342.664706, 152.795312)" x="342.664706" y="152.795312">1.50</text>
      </g>
     </g>
     <g id="xtick_8">
@@ -115,16 +115,16 @@ L 0 3.5
       </g>
      </g>
      <g id="text_8">
-      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 395.641897, 152.795312)" x="395.641897" y="152.795312">1.75</text>
+      <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 395.641897, 152.795312)" x="395.641897" y="152.795312">1.75</text>
      </g>
     </g>
     <g id="text_9">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-0, 235.650781, 166.796875)" x="235.650781" y="166.796875">Time (milliseconds)</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 235.650781, 166.796875)" x="235.650781" y="166.796875">Time (milliseconds)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="text_10">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:middle;" transform="rotate(-90, 18.398438, 76.248437)" x="18.398438" y="76.248437">Amplitude</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 18.398438, 76.248437)" x="18.398438" y="76.248437">Amplitude</text>
     </g>
    </g>
    <g id="line2d_10">
@@ -392,7 +392,7 @@ L 442.261825 20.929201
 L 444.380912 20.375751 
 L 446.5 20.042804 
 L 446.5 20.042804 
-" style="fill:none;stroke:#ff7f0e;stroke-dasharray:9.6,2.4,1.6,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#ff7f0e;stroke-dasharray:9.6,2.4,1.5,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_12">
     <path clip-path="url(#p7394f5e223)" d="M 24.801563 76.248437 
@@ -527,7 +527,7 @@ L 435.904562 55.516855
 L 442.261825 65.695729 
 L 446.5 72.712279 
 L 446.5 72.712279 
-" style="fill:none;stroke:#2ca02c;stroke-dasharray:5.6,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#2ca02c;stroke-dasharray:5.55,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_13">
     <path clip-path="url(#p7394f5e223)" d="M 24.801563 132.565199 
@@ -659,7 +659,7 @@ L 442.261825 131.567674
 L 444.380912 132.121124 
 L 446.5 132.454071 
 L 446.5 132.454071 
-" style="fill:none;stroke:#d62728;stroke-dasharray:2.2,2.2;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#d62728;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="patch_3">
     <path d="M 24.801563 138.196875 
@@ -702,34 +702,34 @@ L 408.065625 27.398438
     </g>
     <g id="line2d_15"/>
     <g id="text_11">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:start;" transform="rotate(-0, 416.065625, 30.898438)" x="416.065625" y="30.898438">0°</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 416.065625, 30.898438)" x="416.065625" y="30.898438">0°</text>
     </g>
     <g id="line2d_16">
      <path d="M 388.065625 42.4 
 L 408.065625 42.4 
-" style="fill:none;stroke:#ff7f0e;stroke-dasharray:9.6,2.4,1.6,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#ff7f0e;stroke-dasharray:9.6,2.4,1.5,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
     </g>
     <g id="line2d_17"/>
     <g id="text_12">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:start;" transform="rotate(-0, 416.065625, 45.9)" x="416.065625" y="45.9">90°</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 416.065625, 45.9)" x="416.065625" y="45.9">90°</text>
     </g>
     <g id="line2d_18">
      <path d="M 388.065625 57.401562 
 L 408.065625 57.401562 
-" style="fill:none;stroke:#2ca02c;stroke-dasharray:5.6,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#2ca02c;stroke-dasharray:5.55,2.4;stroke-dashoffset:0;stroke-width:1.5;"/>
     </g>
     <g id="line2d_19"/>
     <g id="text_13">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:start;" transform="rotate(-0, 416.065625, 60.901562)" x="416.065625" y="60.901562">180°</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 416.065625, 60.901562)" x="416.065625" y="60.901562">180°</text>
     </g>
     <g id="line2d_20">
      <path d="M 388.065625 72.403125 
 L 408.065625 72.403125 
-" style="fill:none;stroke:#d62728;stroke-dasharray:2.2,2.2;stroke-dashoffset:0;stroke-width:1.5;"/>
+" style="fill:none;stroke:#d62728;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
     </g>
     <g id="line2d_21"/>
     <g id="text_14">
-     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:400;text-anchor:start;" transform="rotate(-0, 416.065625, 75.903125)" x="416.065625" y="75.903125">270°</text>
+     <text style="font-family:Open Sans;font-size:10px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 416.065625, 75.903125)" x="416.065625" y="75.903125">270°</text>
     </g>
    </g>
   </g>
