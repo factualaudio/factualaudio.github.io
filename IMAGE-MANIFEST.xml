@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <images>
   <image>
+    <url><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-circle.png]]></url>
+    <width><![CDATA[2000]]></width>
+    <height><![CDATA[1502]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-line.png]]></url>
+    <width><![CDATA[2000]]></width>
+    <height><![CDATA[715]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-sphere.png]]></url>
+    <width><![CDATA[2000]]></width>
+    <height><![CDATA[1502]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/diagrams/realms.png]]></url>
     <width><![CDATA[839]]></width>
     <height><![CDATA[150]]></height>
@@ -9,6 +24,11 @@
     <url><![CDATA[https://factualaudio.com/icon.png]]></url>
     <width><![CDATA[794]]></width>
     <height><![CDATA[794]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/air-attenuation.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[800]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.png]]></url>
@@ -129,6 +149,11 @@
     <url><![CDATA[https://factualaudio.com/diagrams/realms.svg]]></url>
     <width><![CDATA[632]]></width>
     <height><![CDATA[115]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/air-attenuation.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[288]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.svg]]></url>

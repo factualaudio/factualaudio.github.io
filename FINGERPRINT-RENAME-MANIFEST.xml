@@ -13,6 +13,10 @@
     <to><![CDATA[https://factualaudio.com/diagrams/realms.fingerprint-346c4fa.svg]]></to>
   </rename>
   <rename>
+    <from><![CDATA[https://factualaudio.com/plots/air-attenuation.svg]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/air-attenuation.fingerprint-b31c23c.svg]]></to>
+  </rename>
+  <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.svg]]></from>
     <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-2a7fd86.svg]]></to>
   </rename>
@@ -105,12 +109,28 @@
     <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.fingerprint-c194792.svg]]></to>
   </rename>
   <rename>
+    <from><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-circle.png]]></from>
+    <to><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-circle.fingerprint-ee1def0.png]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-line.png]]></from>
+    <to><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-line.fingerprint-f508015.png]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-sphere.png]]></from>
+    <to><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-sphere.fingerprint-c487806.png]]></to>
+  </rename>
+  <rename>
     <from><![CDATA[https://factualaudio.com/diagrams/realms.png]]></from>
     <to><![CDATA[https://factualaudio.com/diagrams/realms.fingerprint-0ee5447.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/icon.png]]></from>
     <to><![CDATA[https://factualaudio.com/icon.fingerprint-53b21f7.png]]></to>
+  </rename>
+  <rename>
+    <from><![CDATA[https://factualaudio.com/plots/air-attenuation.png]]></from>
+    <to><![CDATA[https://factualaudio.com/plots/air-attenuation.fingerprint-d109341.png]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.png]]></from>

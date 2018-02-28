@@ -10,10 +10,93 @@
     <managingEditor>etienne@edechamps.fr (Etienne Dechamps)</managingEditor>
     <webMaster>etienne@edechamps.fr (Etienne Dechamps)</webMaster>
     <copyright>Etienne Dechamps</copyright>
-    <lastBuildDate>Tue, 30 Jan 2018 22:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2018 22:53:00 +0000</lastBuildDate>
     
         <atom:link href="https://factualaudio.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Keeping our distance</title>
+      <link>https://factualaudio.com/post/distance/</link>
+      <pubDate>Wed, 28 Feb 2018 22:53:00 +0000</pubDate>
+      <author>etienne@edechamps.fr (Etienne Dechamps)</author>
+      <guid>https://factualaudio.com/post/distance/</guid>
+      <description>
+
+&lt;p&gt;This post will focus on a specific aspect of the &lt;a href=&#34;https://factualaudio.com/post/life/#the-acoustic-realm&#34;&gt;acoustic realm&lt;/a&gt;: specifically, how the &lt;a href=&#34;https://factualaudio.com/post/amplitude/&#34;&gt;amplitude&lt;/a&gt; of a sound wave is altered as it travels through free space. This is useful to gain a better understanding of how loudspeaker systems behave; naturally, it is not as useful when discussing headphones, as in this case there is not much space for sound to propagate into.&lt;/p&gt;
+
+&lt;p&gt;To make things easier to understand, I will use a simple unrealistic scenario as a basic starting point. Then, I will elaborate on this scenario so that we get closer and closer to a realistic model of how sound propagates in the real world. Here are our initial assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Sound is propagating through a perfect lossless medium.&lt;/em&gt; In other words, the medium (in our case, air) opposes no resistance to the passage of sound, and there is no dissipation of sound energy, such as in the form of heat. This is not completely true in practice, and we will revisit this assumption later in this post.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sound is coming from a single, small point in space&lt;/em&gt;, not from multiple points at the same time. Such a source is called a &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Point_source&#34;&gt;point source&lt;/a&gt;&lt;/em&gt;. Perfect point sources don’t exist in the real world, but are a good approximation as long the listener sits in the &lt;em&gt;far field&lt;/em&gt;; that is to say, the distance to the source is large compared to the size of the source itself. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;If we can’t make that assumption, then an alternative is to decompose a complex source into a number of individual point sources, the sound from which &lt;a href=&#34;https://factualaudio.com/post/sum/&#34;&gt;sum&lt;/a&gt; together at the listening position; this approach is known as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle&#34;&gt;Huygens-Fresnel principle&lt;/a&gt;.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sound does not reflect off nearby surfaces.&lt;/em&gt; Think of the sound source as levitating in mid-air, with no floor, no walls, no ceiling, basically nothing for sound to bounce off of. This situation is known as &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Free_field_(acoustics)&#34;&gt;free field&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;free space&lt;/em&gt; conditions. Strictly speaking this is implied by the previous assumption, since after all a reflection is itself a sound source — thus the sound would not be coming from a single point anymore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The latter assumption is of course egregiously wrong when sound propagates in a room, which is the main reason why the scenarios described in this post are somewhat unrealistic. The rules described below should be seen as building blocks to gain a better understanding of how sound propagates through space; they can’t be applied as-is for sound waves propagating through a room where reflections are present. We will tackle that problem in a later post.&lt;/p&gt;
+
+&lt;p class=&#34;caution&#34;&gt;&lt;strong class=&#34;caution-label&#34;&gt;Caution: &lt;/strong&gt;Keep in mind that &lt;a href=&#34;https://en.wikipedia.org/wiki/Sound_pressure&#34;&gt;sound pressure&lt;/a&gt;, the metric used to quantify the amplitude of sound in the acoustic realm, refers to pressure variations &lt;em&gt;at a given point in space&lt;/em&gt;. It does &lt;em&gt;not&lt;/em&gt; refer to some overall amount of &lt;a href=&#34;https://en.wikipedia.org/wiki/Sound_power&#34;&gt;sound power&lt;/a&gt; that is being &lt;em&gt;radiated away&lt;/em&gt; from a source. Local sound pressure depends on where the listener is; in contrast, total sound power is a property of the source only. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;When a specific sound pressure level is mentioned in the specifications of a sound source (e.g. a loudspeaker), it is always relative to a specific distance from the source (typically 1 meter), at a specific angle (typically &lt;em&gt;on-axis&lt;/em&gt;, i.e. 0°), under specific conditions (typically &lt;em&gt;half-space&lt;/em&gt;, i.e. with the loudspeaker against a wall). Such a number is valid for this point only.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;h1 id=&#34;one-dimension&#34;&gt;One dimension&lt;/h1&gt;
+
+&lt;p&gt;To start with, let’s consider the case where sound is propagating down a narrow tube. In fact, as an approximation we will assume for the sake of the discussion that the tube is &lt;em&gt;infinitely&lt;/em&gt; narrow, such that we don’t have to deal with any reflections off the sides of the tube. (This might seem like a strange place to start, but bear with me for a moment.) We could simulate such a scenario by attaching a tube to a loudspeaker, like so:&lt;/p&gt;
+
+&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/diagrams/inverse-square-law-line.png&#34; alt=&#34;Distance on a line&#34;&gt;
+&lt;/span&gt;
+
+
+&lt;p&gt;A more entertaining analogy is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tin_can_telephone&#34;&gt;tin can telephone&lt;/a&gt;, where the propagation medium is not air, but a piece of string.&lt;/p&gt;
+
+&lt;p&gt;In such a setup, the problem is one-dimensional: there is nowhere the sound can go but down the line. Furthermore, since we’ve assumed earlier that the medium is lossless, there really is no reason for any energy to get lost as sound propagates down the tube. Therefore the sound pressure at points A and B (as well as any other point along the tube) is equal. It’s as simple as that.&lt;/p&gt;
+
+&lt;h1 id=&#34;two-dimensions&#34;&gt;Two dimensions&lt;/h1&gt;
+
+&lt;p&gt;Let’s go one step further and add a second spatial dimension into the mix. One could imagine that our loudspeaker is sandwiched between two parallel planes, where the space between the two planes is infinitesimal:&lt;/p&gt;
+
+&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/diagrams/inverse-square-law-circle.png&#34; alt=&#34;Distance over a circle&#34;&gt;
+&lt;/span&gt;
+
+
+&lt;p&gt;Another possible analogy is a vibrating piece of paper — a two-dimensional upgrade to the tin can telephone from the previous section.&lt;/p&gt;
+
+&lt;p&gt;In this setup things get more complicated, because the loudspeaker is radiating sound in many directions at once. This can be conceptualized as expanding circles called &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Wavefront&#34;&gt;wavefronts&lt;/a&gt;&lt;/em&gt;. As a wavefront gets farther and farther away from the sound source, its circumference increases. However, energy does not magically appear out of thin air as this happens, so the same amount of sound energy gets spread over a larger circle. In the diagram above, the wavefronts represented by the inner and outer circles carry the same amount of energy &lt;em&gt;in total&lt;/em&gt;, but since the outer circle is larger, the sound pressure &lt;em&gt;at a given point&lt;/em&gt; on the circle is lower. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;This reasoning does not require that the source be &lt;em&gt;omnidirectional&lt;/em&gt;, i.e. that it radiates sound equally in all directions. In other words, sound energy is not necessarily &lt;em&gt;evenly&lt;/em&gt; distributed along the circle. In general, loudspeakers are &lt;em&gt;not&lt;/em&gt; omnidirectional; at higher frequencies, they will typically radiate more sound out the front than out the back. Directivity makes no difference as far as this post is concerned, but it is an important concept in other contexts.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We can easily quantify the rate at which sound pressure decreases as the wavefront gets wider. In the above example, the distance between the source and point A is exactly half the distance to point B. In other words, the radius of the outer circle is double the radius of the inner circle. The circumference of a circle is proportional to its radius, so doubling the radius is equivalent to doubling the circumference. Doubling the circumference means that a given amount of sound power gets spread over twice the area, which in turn means that the sound power per unit area (i.e. the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sound_intensity&#34;&gt;sound intensity&lt;/a&gt;) is halved. Sound intensity varies with the square of sound pressure, &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;This is because sound intensity is the product of sound pressure and &lt;a href=&#34;https://en.wikipedia.org/wiki/Particle_velocity&#34;&gt;particle velocity&lt;/a&gt;, and particle velocity is proportional to sound pressure. As a result sounds pressure is multiplied with itself. This is analogous to electric power dissipated in a resistor being proportional to the square of voltage.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt; therefore the ratio of sound pressure between the two circles is the square root of 2, or 3 dB.&lt;/p&gt;
+
+&lt;p&gt;This leads us to conclude that, when sound propagates along two spatial dimensions, and keeping in mind the important assumptions we’ve made so far, &lt;em&gt;a doubling of the distance to the sound source results in a 3 dB drop in sound pressure level&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;three-dimensions&#34;&gt;Three dimensions&lt;/h1&gt;
+
+&lt;p&gt;Finally, let’s enter the real world and in its three spatial dimensions. As one would expect, our circles are now spheres:&lt;/p&gt;
+
+&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/diagrams/inverse-square-law-sphere.png&#34; alt=&#34;Distance over a sphere&#34;&gt;
+&lt;/span&gt;
+
+
+&lt;p&gt;From this point forward the reasoning is very similar to the two-dimensional case, except this time we’re dealing with surfaces, not lines. The surface of a sphere is proportional to the &lt;em&gt;square&lt;/em&gt; of the radius, so doubling the radius is equivalent to quadrupling the surface. Quadrupling the surface means that a given amount of sound power gets spread over an area four times as large, which in turn means the sound intensity is divided by 4. Therefore, the ratio of sound pressure between the two spheres is the square root of 4, which is, well, 2, or 6 dB.&lt;/p&gt;
+
+&lt;p&gt;This leads us to conclude that, keeping in mind the important assumptions we’ve made so far, &lt;em&gt;a doubling of the distance to the sound source results in a 6 dB drop in sound pressure level (SPL)&lt;/em&gt;. This fundamental result, which applies not just to sound waves but to various other physical phenomena, is caused the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Inverse-square_law&#34;&gt;inverse-square law&lt;/a&gt;&lt;/em&gt;. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;This is because intensity decreases with the square of the distance. Strictly speaking, since we’re talking about pressure this should be called the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sound_pressure#Inverse-proportional_law&#34;&gt;inverse-proportional law&lt;/a&gt;, but that term is seldom used in practice.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;air-attenuation&#34;&gt;Air attenuation&lt;/h1&gt;
+
+&lt;p&gt;At the beginning of this post, we’ve made the assumption that sound is propagating through a lossless medium. But &lt;a href=&#34;https://factualaudio.com/post/life/#the-acoustic-realm&#34;&gt;remember&lt;/a&gt; that sound is a pressure wave; by definition, its propagation involves the movement of particles that comprise the medium. In the case of air, that’s mostly oxygen and nitrogen. Because such movement goes against the natural equilibrium of the medium, it requires an expenditure of energy, which is dissipated as heat. As a result, the total energy carried by a sound wave tends to decrease as it travels through the air, &lt;em&gt;in addition&lt;/em&gt; to the loss of sound pressure caused by the inverse-square law described in the previous section. &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [ref] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-ref inlineFootnoteUnprocessed&#34;&gt;&lt;em&gt;Engineering Acoustics, &lt;a href=&#34;https://en.wikibooks.org/wiki/Engineering_Acoustics/Attenuation_of_Sound_Waves&#34;&gt;“Attenuation of sound waves”&lt;/a&gt;&lt;/em&gt;; Smith, Julius O., &lt;em&gt;Physical Audio Signal Processing, &lt;a href=&#34;https://ccrma.stanford.edu/~jos/pasp/Air_Absorption.html&#34;&gt;“Air Absorption”&lt;/a&gt;&lt;/em&gt;.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end ref] &lt;/strong&gt; &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [note] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-note inlineFootnoteUnprocessed&#34;&gt;Contrary to what some may believe, this doesn’t seem to have anything to do with “loops of energy” that somehow &lt;a href=&#34;https://www.quora.com/If-energy-cannot-be-destroyed-then-where-does-sound-energy-go-after-we-speak/answer/Abhishek-Bisht-12&#34;&gt;“supply the body with vital life force”&lt;/a&gt;, however inspiring that might be.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end note] &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The physical phenomena at play here are non-trivial. The precise amount of sound absorption per unit of distance traveled in air depends on ambient pressure, temperature and humidity. Most importantly, it increases with frequency, which means, somewhat shockingly, that &lt;em&gt;air itself&lt;/em&gt; exhibits &lt;a href=&#34;https://factualaudio.com/post/distortion/#frequency-response-distortion&#34;&gt;frequency response distortion&lt;/a&gt;. Here’s how things look like for various atmospheric conditions: &lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [ref] &lt;/strong&gt;&lt;span class=&#34;inlineFootnote-ref inlineFootnoteUnprocessed&#34;&gt;Calculated according to &lt;a href=&#34;https://www.iso.org/standard/17426.html&#34;&gt;ISO 9613–1:1993&lt;/a&gt;, &lt;em&gt;Acoustics — Attenuation of sound during propagation outdoors — Part 1: Calculation of the absorption of sound by the atmosphere&lt;/em&gt;.&lt;/span&gt;&lt;strong class=&#34;inlineFootnoteDecoration&#34;&gt; [end ref] &lt;/strong&gt;&lt;/p&gt;
+
+&lt;span class=&#34;figure&#34; data-intrinsic-placeholder=&#34;unprocessed&#34;&gt;
+	&lt;img src=&#34;https://factualaudio.com/plots/air-attenuation.png&#34; alt=&#34;Air attenuation&#34; data-svg-alternative=&#34;https://factualaudio.com/plots/air-attenuation.svg&#34;&gt;
+&lt;/span&gt;
+
+
+&lt;p&gt;Immediately, we can observe that below a few kHz, there is not much attenuation to speak of; it is practically negligible at low and medium frequencies. This should dispel the common misconception that attenuation of sound with distance is due to absorption by the air — in reality, that phenomenon is dwarfed by the inverse-square law that we’ve discussed above.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, absorption cannot be neglected for high frequencies. In conditions typical of a living room (20 °C, 50% relative humidity), a 10 kHz sound wave will be down ~1.5 dB after 10 meters in addition to the inverse square law and other phenomena. It’s small, but it’s not zero, and it tends to go downhill fast over the last octave of the audible frequency range.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mixing waves</title>
