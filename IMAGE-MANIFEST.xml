@@ -76,6 +76,41 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-nospreading.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient-waveform.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[500]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-lateral.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[960]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[800]]></height>
@@ -146,6 +181,11 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/wavelength.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[600]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/diagrams/realms.svg]]></url>
     <width><![CDATA[632]]></width>
     <height><![CDATA[115]]></height>
@@ -199,6 +239,41 @@
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-wave.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-nospreading.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient-waveform.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources-lateral.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/point-sources.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[345]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.svg]]></url>
@@ -269,5 +344,10 @@
     <url><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.svg]]></url>
     <width><![CDATA[460]]></width>
     <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/wavelength.svg]]></url>
+    <width><![CDATA[460]]></width>
+    <height><![CDATA[216]]></height>
   </image>
 </images>
