@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
-<svg height="180pt" version="1.1" viewBox="0 0 460 180" width="460pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="180pt" version="1.1" viewBox="0 0 460.8 180" width="460.8pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -28,7 +28,7 @@ z
 " style="fill:#ffffff;"/>
    </g>
    <g id="line2d_1">
-    <path clip-path="url(#pf5b6372b58)" d="M 48.953125 84.898828 
+    <path clip-path="url(#p75d4789842)" d="M 48.953125 84.898828 
 L 446.5 84.898828 
 " style="fill:none;stroke:#808080;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
@@ -98,7 +98,7 @@ L -3.5 0
     </g>
    </g>
    <g id="line2d_7">
-    <path clip-path="url(#pf5b6372b58)" d="M 48.953125 84.898828 
+    <path clip-path="url(#p75d4789842)" d="M 48.953125 84.898828 
 L 58.51337 74.457875 
 L 63.293493 69.534294 
 L 67.276929 65.693174 
@@ -216,7 +216,7 @@ L 446.5 85.782146
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
    <g id="line2d_8">
-    <path clip-path="url(#pf5b6372b58)" d="M 48.953125 66.634454 
+    <path clip-path="url(#p75d4789842)" d="M 48.953125 66.634454 
 L 50.546499 65.456842 
 L 52.139873 64.585842 
 L 53.733248 64.035191 
@@ -411,7 +411,7 @@ L 446.5 67.332617
 " style="fill:none;stroke:#ff7f0e;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
    <g id="line2d_9">
-    <path clip-path="url(#pf5b6372b58)" d="M 48.953125 66.634454 
+    <path clip-path="url(#p75d4789842)" d="M 48.953125 66.634454 
 L 51.343186 62.334319 
 L 52.936561 59.864371 
 L 54.529935 57.730884 
@@ -663,7 +663,7 @@ L 395.748438 57.700781
   </g>
  </g>
  <defs>
-  <clipPath id="pf5b6372b58">
+  <clipPath id="p75d4789842">
    <rect height="140.599219" width="397.546875" x="48.953125" y="14.599219"/>
   </clipPath>
  </defs>

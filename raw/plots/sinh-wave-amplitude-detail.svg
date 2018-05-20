@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
-<svg height="180pt" version="1.1" viewBox="0 0 460 180" width="460pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="180pt" version="1.1" viewBox="0 0 460.8 180" width="460.8pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -28,7 +28,7 @@ z
 " style="fill:#ffffff;"/>
    </g>
    <g id="line2d_1">
-    <path clip-path="url(#p332b31a9c9)" d="M 37.6125 90 
+    <path clip-path="url(#p4cd2c232b7)" d="M 37.6125 90 
 L 446.5 90 
 " style="fill:none;stroke:#808080;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
@@ -91,7 +91,7 @@ L -3.5 0
     </g>
    </g>
    <g id="line2d_7">
-    <path clip-path="url(#p332b31a9c9)" d="M 37.6125 90 
+    <path clip-path="url(#p4cd2c232b7)" d="M 37.6125 90 
 L 45.8176 89.876055 
 L 48.552634 89.613669 
 L 49.920151 89.33654 
@@ -296,17 +296,17 @@ L 446.5 90.004187
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
    <g id="line2d_8">
-    <path clip-path="url(#p332b31a9c9)" d="M 37.6125 158.818182 
+    <path clip-path="url(#p4cd2c232b7)" d="M 37.6125 158.818182 
 L 446.5 158.818182 
 " style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_9">
-    <path clip-path="url(#p332b31a9c9)" d="M 37.6125 21.181818 
+    <path clip-path="url(#p4cd2c232b7)" d="M 37.6125 21.181818 
 L 446.5 21.181818 
 " style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
    <g id="line2d_10">
-    <path clip-path="url(#p332b31a9c9)" d="M 37.6125 60.838575 
+    <path clip-path="url(#p4cd2c232b7)" d="M 37.6125 60.838575 
 L 446.5 60.838575 
 " style="fill:none;stroke:#1f77b4;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
    </g>
@@ -381,7 +381,7 @@ L 350.141346 82.882437
   </g>
  </g>
  <defs>
-  <clipPath id="p332b31a9c9">
+  <clipPath id="p4cd2c232b7">
    <rect height="151.4" width="408.8875" x="37.6125" y="14.3"/>
   </clipPath>
  </defs>

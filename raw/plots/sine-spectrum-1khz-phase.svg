@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
-<svg height="288pt" version="1.1" viewBox="0 0 460 288" width="460pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="288pt" version="1.1" viewBox="0 0 460.8 288" width="460.8pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -371,7 +371,7 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " id="m2b3e4041e6" style="stroke:#1f77b4;"/>
     </defs>
-    <g clip-path="url(#pd3107bcefc)">
+    <g clip-path="url(#pf391518611)">
      <use style="fill:#1f77b4;stroke:#1f77b4;" x="267.980887" xlink:href="#m2b3e4041e6" y="246.196875"/>
     </g>
    </g>
@@ -384,7 +384,7 @@ L -3 -3
 z
 " id="mc42afbacff" style="stroke:#ff7f0e;stroke-linejoin:miter;"/>
     </defs>
-    <g clip-path="url(#pd3107bcefc)">
+    <g clip-path="url(#pf391518611)">
      <use style="fill:#ff7f0e;stroke:#ff7f0e;stroke-linejoin:miter;" x="267.980887" xlink:href="#mc42afbacff" y="188.222656"/>
     </g>
    </g>
@@ -396,7 +396,7 @@ M -3 -3
 L 3 3 
 " id="m7bf28fa768" style="stroke:#2ca02c;"/>
     </defs>
-    <g clip-path="url(#pd3107bcefc)">
+    <g clip-path="url(#pf391518611)">
      <use style="fill:#2ca02c;stroke:#2ca02c;" x="267.980887" xlink:href="#m7bf28fa768" y="130.248437"/>
     </g>
    </g>
@@ -408,7 +408,7 @@ M 0 3
 L 0 -3 
 " id="ma195923777" style="stroke:#d62728;"/>
     </defs>
-    <g clip-path="url(#pd3107bcefc)">
+    <g clip-path="url(#pf391518611)">
      <use style="fill:#d62728;stroke:#d62728;" x="267.980887" xlink:href="#ma195923777" y="72.274219"/>
     </g>
    </g>
@@ -486,7 +486,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pd3107bcefc">
+  <clipPath id="pf391518611">
    <rect height="231.896875" width="386.753906" x="48.953125" y="14.3"/>
   </clipPath>
  </defs>

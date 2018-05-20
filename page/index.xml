@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Factual Audio</title>
+    <link>https://factualaudio.com/page/</link>
+    <description>Recent content in Pages on Factual Audio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>etienne@edechamps.fr (Etienne Dechamps)</managingEditor>
+    <webMaster>etienne@edechamps.fr (Etienne Dechamps)</webMaster>
+    <copyright>Etienne Dechamps</copyright>
+    <lastBuildDate>Tue, 21 Nov 2017 21:00:00 +0100</lastBuildDate>
+    
+        <atom:link href="https://factualaudio.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Factual Audio</title>
+      <link>https://factualaudio.com/page/about/</link>
+      <pubDate>Tue, 21 Nov 2017 21:00:00 +0100</pubDate>
+      <author>etienne@edechamps.fr (Etienne Dechamps)</author>
+      <guid>https://factualaudio.com/page/about/</guid>
+      <description>
+
+&lt;p&gt;Factual Audio is dedicated to delivering objective, trustworthy, reliable, evidence-backed information about audio, in particular audio playback at home and on the move. This includes for example “Hi-Fi” systems, “home cinema” systems, and headphones. The main goal of this website is to educate the general public about audio matters through critical thinking and a sound, rational, scientific approach to assessing audio claims and products.&lt;/p&gt;
+
+&lt;p&gt;Factual Audio is a completely independent entity with a strong focus on integrity, transparency and full disclosure. It does not have a commercial or monetary purpose, is not affiliated with any company or organization, does not run ads, and does not accept paid promotion of any kind.&lt;/p&gt;
+
+&lt;p&gt;While Factual Audio strives to maintain a high standard of scientific accuracy, no-one is immune from making mistakes, and new discoveries can sometimes compel us to revise our understanding. If you believe that Factual Audio has made factually incorrect claims, used outdated information, misrepresented evidence, ignored contradictory evidence, or has failed to provide appropriate citations for controversial statements, please don’t hesitate to provide feedback by posting a comment on the article or to get in touch using the contact details below.&lt;/p&gt;
+
+&lt;h1 id=&#34;source-code-license-and-copyright&#34;&gt;Source code, license and copyright&lt;/h1&gt;
+
+&lt;p&gt;The source code that this website is built from is freely available in a &lt;a href=&#34;https://github.com/factualaudio/factualaudio&#34;&gt;public repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All article text, figures and images on this website are licensed under the &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution 4.0 International License&lt;/a&gt;, unless explicitly mentioned otherwise. This also applies to source code.&lt;/p&gt;
+
+&lt;p&gt;Note that most decorative or stylistic elements come from the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;https://github.com/roryg/ghostwriter&#34;&gt;Hugo Ghostwriter theme&lt;/a&gt; and &lt;a href=&#34;http://www.bigfootjs.com/&#34;&gt;bigfoot.js&lt;/a&gt; projects, which come with their own licenses.&lt;/p&gt;
+
+&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
+
+&lt;p&gt;Owner and editor: &lt;a href=&#34;mailto:etienne@edechamps.fr&#34;&gt;Etienne Dechamps&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
-<svg height="180pt" version="1.1" viewBox="0 0 460 180" width="460pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="180pt" version="1.1" viewBox="0 0 460.8 180" width="460.8pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -28,7 +28,7 @@ z
 " style="fill:#ffffff;"/>
    </g>
    <g id="line2d_1">
-    <path clip-path="url(#p582c5c566b)" d="M 51.614063 76.248437 
+    <path clip-path="url(#pb1523cfd7d)" d="M 51.614063 76.248437 
 L 446.5 76.248437 
 " style="fill:none;stroke:#808080;stroke-linecap:square;stroke-width:1.5;"/>
    </g>
@@ -163,7 +163,7 @@ L -3.5 0
     </g>
    </g>
    <g id="line2d_13">
-    <path clip-path="url(#p582c5c566b)" d="M 51.614063 76.248437 
+    <path clip-path="url(#pb1523cfd7d)" d="M 51.614063 76.248437 
 L 58.217506 55.365034 
 L 62.179573 43.691469 
 L 64.82095 36.525843 
@@ -280,7 +280,7 @@ L 446.5 14.3
   </g>
  </g>
  <defs>
-  <clipPath id="p582c5c566b">
+  <clipPath id="pb1523cfd7d">
    <rect height="123.896875" width="394.885938" x="51.614063" y="14.3"/>
   </clipPath>
  </defs>

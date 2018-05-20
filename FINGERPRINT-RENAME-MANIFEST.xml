@@ -14,131 +14,131 @@
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/air-attenuation.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/air-attenuation.fingerprint-b31c23c.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/air-attenuation.fingerprint-d627d0e.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-2a7fd86.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-spectrum.fingerprint-4b8a576.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.fingerprint-ffb5f12.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/clipped-sine-wave.fingerprint-0c8eb5f.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/interference.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-2ddb3b0.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/interference.fingerprint-0943ca5.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.fingerprint-6db4a30.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-spectrum.fingerprint-9402084.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/noisy-sine-wave.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-wave.fingerprint-8008abb.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/noisy-sine-wave.fingerprint-09d7e02.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/peak-frequency-response.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-9d34e77.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/peak-frequency-response.fingerprint-82d33d8.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/peak-phase-response.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-87f3197.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/peak-phase-response.fingerprint-1e38d72.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-da791dd.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/piano-c5-spectrum.fingerprint-f480e2b.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/piano-c5-wave.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/piano-c5-wave.fingerprint-ab40946.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/piano-c5-wave.fingerprint-9597aec.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.fingerprint-d77bc63.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.fingerprint-cd8fabd.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-nospreading.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-nospreading.fingerprint-0d2cde9.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-nospreading.fingerprint-0173e9b.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-amplitude.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude.fingerprint-6b0d74e.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude.fingerprint-f1390d0.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient.fingerprint-41454a3.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient.fingerprint-417b9dc.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient-waveform.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient-waveform.fingerprint-0bd88a6.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-transient-waveform.fingerprint-2304370.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources-lateral.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources-lateral.fingerprint-6599e74.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources-lateral.fingerprint-3c83fa9.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/point-sources.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/point-sources.fingerprint-2ab47d5.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/point-sources.fingerprint-1e6abcc.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-74af671.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz-phase.fingerprint-f1d46b2.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.fingerprint-814fb1f.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-spectrum-1khz.fingerprint-e38fda5.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-acoustic.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-acoustic.fingerprint-0e739d8.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-acoustic.fingerprint-caf68f9.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-analog.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-analog.fingerprint-ebd32f7.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-analog.fingerprint-02706cc.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.fingerprint-a06ebe2.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-digital.fingerprint-b8e4471.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-eb3f893.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz-phase.fingerprint-68942fe.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.fingerprint-3686aa5.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-1khz.fingerprint-2374d5b.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-e2f78de.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude-detail.fingerprint-a3aa770.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.fingerprint-456cf34.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-amplitude.fingerprint-81173cb.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-constructive-interference.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-constructive-interference.fingerprint-05bcb3c.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-constructive-interference.fingerprint-ed7ec1f.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-destructive-interference.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-destructive-interference.fingerprint-d986bf6.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-destructive-interference.fingerprint-dab746e.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sine-wave-sum.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-0a420ca.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sine-wave-sum.fingerprint-2892319.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-130fed1.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude-detail.fingerprint-fd1f33d.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.fingerprint-c194792.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.fingerprint-66317ee.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/plots/wavelength.svg]]></from>
-    <to><![CDATA[https://factualaudio.com/plots/wavelength.fingerprint-87adf25.svg]]></to>
+    <to><![CDATA[https://factualaudio.com/plots/wavelength.fingerprint-eca2b7f.svg]]></to>
   </rename>
   <rename>
     <from><![CDATA[https://factualaudio.com/diagrams/inverse-square-law-circle.png]]></from>
