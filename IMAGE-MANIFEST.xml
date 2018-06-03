@@ -76,6 +76,41 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-compression.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-full.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-half.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-huygens.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[800]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-initial.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-peak.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-propagation.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[700]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[960]]></height>
@@ -181,6 +216,11 @@
     <height><![CDATA[500]]></height>
   </image>
   <image>
+    <url><![CDATA[https://factualaudio.com/plots/spherical-plane-wave.png]]></url>
+    <width><![CDATA[1280]]></width>
+    <height><![CDATA[600]]></height>
+  </image>
+  <image>
     <url><![CDATA[https://factualaudio.com/plots/wavelength.png]]></url>
     <width><![CDATA[1280]]></width>
     <height><![CDATA[600]]></height>
@@ -239,6 +279,41 @@
     <url><![CDATA[https://factualaudio.com/plots/piano-c5-wave.svg]]></url>
     <width><![CDATA[461]]></width>
     <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-compression.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-full.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-half.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-huygens.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[288]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-initial.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-peak.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/plane-wave-propagation.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[252]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/point-sources-amplitude-close.svg]]></url>
@@ -344,6 +419,11 @@
     <url><![CDATA[https://factualaudio.com/plots/sinh-wave-amplitude.svg]]></url>
     <width><![CDATA[461]]></width>
     <height><![CDATA[180]]></height>
+  </image>
+  <image>
+    <url><![CDATA[https://factualaudio.com/plots/spherical-plane-wave.svg]]></url>
+    <width><![CDATA[461]]></width>
+    <height><![CDATA[216]]></height>
   </image>
   <image>
     <url><![CDATA[https://factualaudio.com/plots/wavelength.svg]]></url>
